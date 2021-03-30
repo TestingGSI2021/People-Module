@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="56" failures="2" name="TestSuite" time="1,458.741" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrator\.jenkins\Automation_Project"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Users\Administrator\.jenkins\Automation_Project"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\surefirebooter2461722835077481750.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2019"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\apache-maven/bin;C:\Program Files\Java\jdk1.8.0_281/bin;C:\Program Files\Java\jdk1.8.0_281/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\.jenkins\Automation_Project\target\test-classes;C:\Users\Administrator\.jenkins\Automation_Project\target\classes;C:\Users\Administrator\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Administrator\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4.5\mail-1.4.5.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Administrator\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Administrator\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Administrator\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Administrator\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Administrator\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Administrator\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\Administrator\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Administrator\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Administrator\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Administrator\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="C:\Users\Administrator\.jenkins\Automation_Project\target\test-classes;C:\Users\Administrator\.jenkins\Automation_Project\target\classes;C:\Users\Administrator\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Administrator\.m2\repository\com\aventstack\extentreports\4.0.6\extentreports-4.0.6.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Administrator\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Administrator\.m2\repository\javax\mail\mail\1.4.5\mail-1.4.5.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\Administrator\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\Administrator\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\Administrator\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Administrator\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Administrator\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Administrator\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Administrator\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Administrator\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Administrator\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Administrator\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Administrator\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Administrator\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Administrator\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Administrator\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Administrator\.m2\repository\org\testng\testng\6.9.9\testng-6.9.9.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant\1.7.0\ant-1.7.0.jar;C:\Users\Administrator\.m2\repository\org\apache\ant\ant-launcher\1.7.0\ant-launcher-1.7.0.jar;C:\Users\Administrator\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Administrator\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Administrator\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Administrator\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Administrator\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\surefirebooter2461722835077481750.jar C:\Users\ADMINI~1\AppData\Local\Temp\2\surefire852708838200773196tmp C:\Users\ADMINI~1\AppData\Local\Temp\2\surefire2235787415165312778tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="mail.store.protocol" value="imaps"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Administrator\.cache\selenium\chromedriver\win32\88.0.4324.96\chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.common.ui.Login_Page" name="Open_Xpmgr" time="10.099"/>
+  <testcase classname="com.common.ui.Login_Page" name="Login" time="25.68"/>
+  <testcase classname="com.common.ui.Project_List_Page" name="Open_Project" time="20.324"/>
+  <testcase classname="com.common.ui.ProjectDetail_Page" name="Click_On_People_Link" time="44.437"/>
+  <testcase classname="com.common.ui.People_Page" name="Open_Help_Section" time="0.038"/>
+  <testcase classname="com.common.ui.Help_Page" name="Click_Import_Button_On_Help_Section" time="20.349"/>
+  <testcase classname="com.common.ui.Import_People_Page" name="Click_On_Given_Button_On_Import_Page" time="20.662"/>
+  <testcase classname="com.common.ui.People_Page" name="Open_Help_Section" time="0.038"/>
+  <testcase classname="com.common.ui.Help_Page" name="Click_Create_Button_On_Help_Section" time="20.307"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Given_Button_On_New_Record_Pannel" time="81.336"/>
+  <testcase classname="com.common.ui.Help_Page" name="Close_Help_Section" time="20.014"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_New_Button" time="81.5"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Fill_New_Record_Form" time="1.351"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Given_Button_On_New_Record_Pannel" time="20.392"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Close_Icon_On_New_Record_Pannel" time="2.367"/>
+  <testcase classname="com.common.ui.People_Page" name="Verify_Record_Added_Or_Not" time="0.001"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_New_Button" time="20.276"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Fill_New_Record_Form" time="1.236"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Given_Button_On_New_Record_Pannel" time="20.31"/>
+  <testcase classname="com.common.ui.People_Page" name="Verify_Record_Added_Or_Not" time="0.001"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_New_Button" time="20.288"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Fill_New_Record_Form" time="0.525"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Verify_Button_Visiblity" time="0.035"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Close_Icon_On_New_Record_Pannel" time="2.298"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_New_Button" time="20.234"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Given_Button_On_New_Record_Pannel" time="20.278"/>
+  <testcase classname="com.common.ui.People_Page" name="Verify_Record_Added_Or_Not" time="0"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_New_Button" time="20.244"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Close_Icon_On_New_Record_Pannel" time="2.266"/>
+  <testcase classname="com.common.ui.New_Record_Form" name="Click_On_Given_Button_On_New_Record_Pannel" time="2.267">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.common.ui.People_Page" name="Verify_Record_Added_Or_Not" time="2.267">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_Import_Button" time="20.357"/>
+  <testcase classname="com.common.ui.Import_People_Page" name="Click_On_Given_Button_On_Import_Page" time="20.395"/>
+  <testcase classname="com.common.ui.Help_Page" name="Close_Help_Section" time="20.181"/>
+  <testcase classname="com.common.ui.People_Page" name="Verify_Record_Added_Or_Not" time="0"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_Import_Button" time="20.28"/>
+  <testcase classname="com.common.ui.Import_People_Page" name="Verify_Button_Visiblity_On_Import_Page" time="0.022"/>
+  <testcase classname="com.common.ui.Import_People_Page" name="Download_Sample_File" time="25.239"/>
+  <testcase classname="com.common.ui.Import_People_Page" name="Upload_Given_File_On_Import_Page" time="3.738"/>
+  <testcase classname="com.common.ui.Import_People_Page" name="Click_On_Given_Button_On_Import_Page" time="20.28"/>
+  <testcase classname="com.common.ui.Import_People_Page" name="By_Default_Map_Records_And_Override_Duplicates" time="50.385"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_Export_Button" time="20.141"/>
+  <testcase classname="com.common.ui.People_Page" name="Verify_File_Downloaded" time="5.005"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_Add_Filters" time="20.294"/>
+  <testcase classname="com.common.ui.People_Page" name="Add_Filters" time="82.993"/>
+  <testcase classname="com.common.ui.People_Page" name="Verify_Filter_Data_In_Given_Table_Column" time="2.052"/>
+  <testcase classname="com.common.ui.People_Page" name="Clear_All_Filters" time="25.306"/>
+  <testcase classname="com.common.ui.People_Page" name="Click_On_Header_Title_DropDown" time="21.176"/>
+  <testcase classname="com.common.ui.People_Page" name="Validate_Sorting_A_To_Z" time="143.908">
+    <failure message="Unable to Sort A-Z expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Unable to Sort A-Z expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.common.ui.People_Page.Validate_Sorting_A_To_Z(People_Page.java:457)
+</failure>
+    <system-out>Creating child node
+ INFO 2021-02-27 09:24:43,814 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+ INFO 2021-02-27 09:24:43,815 main: (Util.java:94) - (People_Page.Java:437) Sorted : [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Test User1 first name, Test User2 first name]
+ INFO 2021-02-27 09:25:04,129 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:25:24,215 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:25:25,275 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-27 09:25:25,275 main: (Util.java:94) - (People_Page.Java:448) Click on &apos;Sort (A-Z)&apos; of Header : First Name
+ INFO 2021-02-27 09:26:05,953 main: (Util.java:94) - (People_Page.Java:593) All Data  [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Russell, Khim Wee]
+ INFO 2021-02-27 09:26:26,108 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:26:46,281 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:26:47,351 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+</system-out>
+  </testcase>
+  <testcase classname="com.common.ui.People_Page" name="Validate_Sorting_Z_To_A" time="143.693">
+    <failure message="Unable to Sort Z-A expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Unable to Sort Z-A expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.common.ui.People_Page.Validate_Sorting_Z_To_A(People_Page.java:494)
+</failure>
+    <system-out>Screenshot path ----- C:\Users\Administrator\.jenkins\Automation_Project\OutputData\Screenshots\Validate_Sorting_A_To_Z2ip.png
+ INFO 2021-02-27 09:26:48,012 main: (Util.java:94) - (Annotation.Java:109) Unable to Sort A-Z expected [true] but found [false]
+org.testng.Assert.fail(Assert.java:94)&lt;br /&gt;org.testng.Assert.failNotEquals(Assert.java:496)&lt;br /&gt;org.testng.Assert.assertTrue(Assert.java:42)&lt;br /&gt;com.common.ui.People_Page.Validate_Sorting_A_To_Z(People_Page.java:457)&lt;br /&gt;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&lt;br /&gt;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&lt;br /&gt;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&lt;br /&gt;java.lang.reflect.Method.invoke(Method.java:498)&lt;br /&gt;org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)&lt;br /&gt;org.testng.internal.Invoker.invokeMethod(Invoker.java:639)&lt;br /&gt;org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)&lt;br /&gt;org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)&lt;br /&gt;org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)&lt;br /&gt;org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)&lt;br /&gt;org.testng.TestRunner.privateRun(TestRunner.java:774)&lt;br /&gt;org.testng.TestRunner.run(TestRunner.java:624)&lt;br /&gt;org.testng.SuiteRunner.runTest(SuiteRunner.java:359)&lt;br /&gt;org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)&lt;br /&gt;org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)&lt;br /&gt;org.testng.SuiteRunner.run(SuiteRunner.java:261)&lt;br /&gt;org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&lt;br /&gt;org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&lt;br /&gt;org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)&lt;br /&gt;org.testng.TestNG.runSuitesLocally(TestNG.java:1140)&lt;br /&gt;org.testng.TestNG.run(TestNG.java:1048)&lt;br /&gt;org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)&lt;br /&gt;org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)&lt;br /&gt;org.apache.maven.surefire.Surefire.run(Surefire.java:169)&lt;br /&gt;sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&lt;br /&gt;sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&lt;br /&gt;sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&lt;br /&gt;java.lang.reflect.Method.invoke(Method.java:498)&lt;br /&gt;org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)&lt;br /&gt;org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)&lt;br /&gt;
+ INFO 2021-02-27 09:26:48,013 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : &quot;VERIFY_SORTING_A_TO_Z_FROM_HEADER&quot; 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:26:48,018 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : &quot;VERIFY_SORTING_Z_TO_A_FROM_HEADER&quot; 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+Creating child node
+ INFO 2021-02-27 09:27:08,435 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+ INFO 2021-02-27 09:27:08,436 main: (Util.java:94) - (People_Page.Java:475) reverse Sorted : [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Janice, Jane]
+ INFO 2021-02-27 09:27:28,728 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:27:48,811 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:27:49,864 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-27 09:27:49,865 main: (Util.java:94) - (People_Page.Java:485) Click on &apos;Sort (Z-A)&apos; of Header : First Name
+ INFO 2021-02-27 09:28:30,414 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Russell, Khim Wee]
+ INFO 2021-02-27 09:28:50,569 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:29:10,655 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:29:11,711 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+</system-out>
+  </testcase>
+  <testcase classname="com.common.ui.People_Page" name="Click_Filters_From_Table_Header" time="20.259"/>
+  <testcase classname="com.common.ui.People_Page" name="Validate_Search_Functionality" time="42.733"/>
+  <testcase classname="com.common.ui.People_Page" name="Validate_Column_Hide_Functinality_From_Column_Header" time="80.74"/>
+  <testcase classname="com.common.ui.People_Page" name="Open_Arrange_Icon_Container" time="20.263"/>
+  <testcase classname="com.common.ui.People_Page" name="Hide_Unhide_Table_Column" time="60.568"/>
+  <testcase classname="com.common.ui.People_Page" name="Delete_Records" time="85.34"/>
+</testsuite>

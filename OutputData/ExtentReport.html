@@ -1,0 +1,3364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/39026ad/v3html/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>Automatoion Report</title>
+
+	<style type='text/css'>
+		/* json-tree */
+		.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:"Lucida Console",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}
+	</style>
+	
+	<script type="text/javascript">
+		/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */
+		var JSONTree=function(){var n={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;","/":"&#x2F;"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:"jstValue"})};var e=function(t){return t.replace(/[&<>'"]/g,function(t){return n[t]})},s=function(){return r+"_"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case"boolean":return l(n,r?t:0);case"number":return i(n,r?t:0);case"string":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g("{",r?t:0,e),N(u,{id:e}),p("}",t)].join("\n");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g("[",r?t:0,e),N(c,{id:e}),p("]",t)].join("\n")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:"jstStr"})},i=function(n,t){return N(v(n,t),{class:"jstNum"})},l=function(n,t){return N(v(n,t),{class:"jstBool"})},f=function(n){return N(v("null",n),{class:"jstNull"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+": ",r),c=N(u(t,r,!1),{});return N(s+c,{class:"jstProperty"})},m=function(){return N(",\n",{class:"jstComma"})},N=function(n,t){return d("span",t,n)},d=function(n,t,r){return"<"+n+Object.keys(t).map(function(n){return" "+n+'="'+t[n]+'"'}).join("")+">"+r+"</"+n+">"},g=function(n,t,r){return N(v(n,t),{class:"jstBracket"})+N("",{class:"jstFold",onclick:"JSONTree.toggle('"+r+"')"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;""===t.className?(t.className="jstHiddenBlock",r.className="jstFolded",e.className="jstExpand"):(t.className="",r.className="",e.className="jstFold")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(" ")+n};return this}();
+	</script>
+</head>
+	<body class='extent standard default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo black"><img src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png"></a>
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+		</ul>
+		<!-- report name -->
+		<span class='report-name'>Suite_Name</span>
+		<!-- report headline -->
+		<span class='report-headline'></span>
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<a href='#!'>
+			<span class='label blue darken-3 suite-start-time'>Feb 27, 2021 09:10:08 AM</span>
+			</a>
+		</ul>
+	</div>
+</nav>		<!-- container -->
+		<div class='container'>
+<div id='test-view' class='view'>
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+				<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+			<!-- category toggle -->
+			<!-- category toggle -->
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+				<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+				<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+				<i class='material-icons'>search</i> Search
+				</a>
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+<div id='test-view-charts' class='subview-full'>
+    <div id='charts-row' class='row nm-v nm-h'>
+        <div class='col s12 m6 l6 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Tests</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='parent-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='90.909%'><span class='strong'>20</span> test(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='9.091%'>2</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                </div>
+            </div>
+        </div>
+        <div class='col s12 m6 l6 np-h'>
+            <div class='card-panel nm-v'>
+                <div class='left panel-name'>Steps</div>
+                <div class='chart-box' style="max-height:94px;">
+                    <canvas id='child-analysis' width='90' height='70'></canvas>
+                </div>
+                <div class='block text-small'>
+                    <span class='tooltipped' data-position='top' data-tooltip='96.296%'><span class='strong'>52</span> step(s) passed</span>
+                </div>
+                <div class='block text-small'>
+                    <span class='strong tooltipped' data-position='top' data-tooltip='3.704%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="timeline-chart" class="row nm-v nm-h">
+        <div class="col s12 m12 l12 np-h">
+            <div class="card-panel">
+                <div class='left panel-name'>Timeline (seconds)</div>
+                <div class="chart-box" style="width:98%;max-height:145px;">
+                    <canvas id="timeline" height="120"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>	<div class='subview-left left'>
+		<div class='view-summary'>
+			<ul id='test-collection' class='test-collection'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_LOGIN_FUNCTIONALITY</span>
+						<span class='test-time'>Feb 27, 2021 09:10:08 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:10:08 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:10:08 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='2'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Open_Xpmgr</div>
+			<span class='node-time'>Feb 27, 2021 09:10:08 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:10:08 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:27) Navigating to URL: https://xpmgr.gevme.com/login
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:10:18 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:30) Successfully Navigated to URL: https://xpmgr.gevme.com/login
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='3'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Login</div>
+			<span class='node-time'>Feb 27, 2021 09:10:18 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:10:18 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:38) Enter given email :  testinggsi1@gmail.com
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:10:18 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:42) Successfully entered given email :  testinggsi1@gmail.com
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:10:18 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:45) Click on submit button.
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:10:39 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:48) Successfully Clicked on submit button.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:10:42 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:53) Enter given OTP : 2325
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:10:44 AM</td>
+							<td class='step-details'>
+									(Login_Page.Java:56) Correct OTP entered. Successfully logged in XPmgr.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>NAVIGATE_TO_PEOPLE_PAGE</span>
+						<span class='test-time'>Feb 27, 2021 09:10:44 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:10:44 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:10:44 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='5'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Open_Project</div>
+			<span class='node-time'>Feb 27, 2021 09:10:44 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:10:44 AM</td>
+							<td class='step-details'>
+									(Project_List_Page.Java:25) Click on the project :  V Test
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:11:04 AM</td>
+							<td class='step-details'>
+									(Project_List_Page.Java:29) Successfully clicked on given project : V Test
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='6'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_People_Link</div>
+			<span class='node-time'>Feb 27, 2021 09:11:04 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:11:04 AM</td>
+							<td class='step-details'>
+									(ProjectDetail_Page.Java:18) Click on People link to open People Module.
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:11:49 AM</td>
+							<td class='step-details'>
+									(ProjectDetail_Page.Java:26) People module/page opened.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION</span>
+						<span class='test-time'>Feb 27, 2021 09:11:49 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:11:49 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:11:49 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='8'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Open_Help_Section</div>
+			<span class='node-time'>Feb 27, 2021 09:11:49 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:11:49 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:67) Help Scetion is already opened
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='9'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_Import_Button_On_Help_Section</div>
+			<span class='node-time'>Feb 27, 2021 09:11:49 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:11:49 AM</td>
+							<td class='step-details'>
+									(Help_Page.Java:39) Click on Import Button From Help Section
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:12:09 AM</td>
+							<td class='step-details'>
+									(Help_Page.Java:42) Successfully clicked on Import button, Upload file page open.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='10'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Given_Button_On_Import_Page</div>
+			<span class='node-time'>Feb 27, 2021 09:12:09 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:12:09 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:78) Click on Button :  Cancel
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:12:30 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='11'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION</span>
+						<span class='test-time'>Feb 27, 2021 09:12:30 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:12:30 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:12:30 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='12'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Open_Help_Section</div>
+			<span class='node-time'>Feb 27, 2021 09:12:30 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:12:30 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:67) Help Scetion is already opened
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='13'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_Create_Button_On_Help_Section</div>
+			<span class='node-time'>Feb 27, 2021 09:12:30 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:12:30 AM</td>
+							<td class='step-details'>
+									(Help_Page.Java:53) Click on Create Button From Help Section
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:12:50 AM</td>
+							<td class='step-details'>
+									(Help_Page.Java:57) Successfully clicked on Create button, 'New Record Form' Opened.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='14'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Given_Button_On_New_Record_Pannel</div>
+			<span class='node-time'>Feb 27, 2021 09:12:50 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:12:50 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:117) Click on Button :  Cancel
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:13:10 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:131) Given Button : Cancel clicked succsessfully.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:14:11 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:88) No  record found
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:14:11 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:134) Total Records after : 0
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='15'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Close_Help_Section</div>
+			<span class='node-time'>Feb 27, 2021 09:14:11 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:14:31 AM</td>
+							<td class='step-details'>
+									(Help_Page.Java:31) Help Section is already closed
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='16'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM</span>
+						<span class='test-time'>Feb 27, 2021 09:14:31 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:14:31 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:14:31 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='17'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_New_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:14:31 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:88) No  record found
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:184) Total Records before : 0
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:15:53 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:187) New Record Form Open
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='18'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Fill_New_Record_Form</div>
+			<span class='node-time'>Feb 27, 2021 09:15:53 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:53 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User1 first name , in input box : firstname
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:15:53 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User1 first name , in given field : firstname
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:53 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User1 last name , in input box : lastname
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User1 last name , in given field : lastname
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  testUser1@gmail.com , in input box : email
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : testUser1@gmail.com , in given field : email
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User1 job title , in input box : jobTitle
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User1 job title , in given field : jobTitle
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User1 company , in input box : company
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User1 company , in given field : company
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='19'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Given_Button_On_New_Record_Pannel</div>
+			<span class='node-time'>Feb 27, 2021 09:15:54 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:15:54 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:117) Click on Button :  Save and create another
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:15 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:131) Given Button : Save and create another clicked succsessfully.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:15 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:134) Total Records after : 1
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='20'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Close_Icon_On_New_Record_Pannel</div>
+			<span class='node-time'>Feb 27, 2021 09:16:15 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:15 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:143) Click on close icon
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:17 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:151) Closed icon clicked succsessfully.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:17 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:153) Total Records after : 1
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='21'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_Record_Added_Or_Not</div>
+			<span class='node-time'>Feb 27, 2021 09:16:17 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:17 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:296) No of records are same as expected
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='22'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_SAVE_FUNCTIONALITY</span>
+						<span class='test-time'>Feb 27, 2021 09:16:17 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:16:17 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:16:17 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='23'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_New_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:16:17 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:17 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:184) Total Records before : 1
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:37 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:187) New Record Form Open
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='24'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Fill_New_Record_Form</div>
+			<span class='node-time'>Feb 27, 2021 09:16:37 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:37 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User2 first name , in input box : firstname
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User2 first name , in given field : firstname
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User2 last name , in input box : lastname
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User2 last name , in given field : lastname
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  testUser2@gmail.com , in input box : email
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : testUser2@gmail.com , in given field : email
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User2 job title , in input box : jobTitle
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User2 job title , in given field : jobTitle
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:38 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User2 company , in input box : company
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:39 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User2 company , in given field : company
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='25'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Given_Button_On_New_Record_Pannel</div>
+			<span class='node-time'>Feb 27, 2021 09:16:39 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:39 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:117) Click on Button :  Save
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:59 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:131) Given Button : Save clicked succsessfully.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:59 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:134) Total Records after : 2
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='26'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_Record_Added_Or_Not</div>
+			<span class='node-time'>Feb 27, 2021 09:16:59 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:16:59 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:296) No of records are same as expected
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='27'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE</span>
+						<span class='test-time'>Feb 27, 2021 09:16:59 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:16:59 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:16:59 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='28'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_New_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:16:59 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:16:59 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:184) Total Records before : 2
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:17:19 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:187) New Record Form Open
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='29'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Fill_New_Record_Form</div>
+			<span class='node-time'>Feb 27, 2021 09:17:19 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+1ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:19 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User2 first name , in input box : firstname
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:17:19 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User2 first name , in given field : firstname
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:19 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:29) Enter given value :  Test User2 last name , in input box : lastname
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:17:20 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:34) Successfully entered given value : Test User2 last name , in given field : lastname
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='30'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_Button_Visiblity</div>
+			<span class='node-time'>Feb 27, 2021 09:17:20 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:20 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:103) Check Given button Save is clickable or not
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:17:20 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:106) Given button Save is clickable : false
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:20 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:103) Check Given button Save and create another is clickable or not
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:17:20 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:106) Given button Save and create another is clickable : false
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='31'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Close_Icon_On_New_Record_Pannel</div>
+			<span class='node-time'>Feb 27, 2021 09:17:20 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:20 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:143) Click on close icon
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:17:22 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:151) Closed icon clicked succsessfully.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:22 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:153) Total Records after : 2
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='32'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM</span>
+						<span class='test-time'>Feb 27, 2021 09:17:22 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:17:22 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:17:22 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='33'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_New_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:17:22 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:22 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:184) Total Records before : 2
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:17:42 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:187) New Record Form Open
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='34'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Given_Button_On_New_Record_Pannel</div>
+			<span class='node-time'>Feb 27, 2021 09:17:42 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:17:42 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:117) Click on Button :  Cancel
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:18:02 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:131) Given Button : Cancel clicked succsessfully.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:18:03 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:134) Total Records after : 2
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='35'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_Record_Added_Or_Not</div>
+			<span class='node-time'>Feb 27, 2021 09:18:03 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:18:03 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:296) No of records are same as expected
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='36'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM</span>
+						<span class='test-time'>Feb 27, 2021 09:18:03 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:18:03 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:18:03 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='37'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_New_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:18:03 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:18:03 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:184) Total Records before : 2
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:18:23 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:187) New Record Form Open
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='38'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Close_Icon_On_New_Record_Pannel</div>
+			<span class='node-time'>Feb 27, 2021 09:18:23 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:18:23 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:143) Click on close icon
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:18:25 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:151) Closed icon clicked succsessfully.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:18:25 AM</td>
+							<td class='step-details'>
+									(New_Record_Form.Java:153) Total Records after : 2
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='39'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE</span>
+						<span class='test-time'>Feb 27, 2021 09:18:25 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:18:25 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:18:25 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='40'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Import_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:18:25 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:18:25 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:202) Total Records before importing: 2
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:18:25 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:204) Click on import button
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:18:45 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:207) Import People Page have been opened.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='41'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Given_Button_On_Import_Page</div>
+			<span class='node-time'>Feb 27, 2021 09:18:45 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:18:45 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:78) Click on Button :  Cancel
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:19:06 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='42'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Close_Help_Section</div>
+			<span class='node-time'>Feb 27, 2021 09:19:06 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:19:06 AM</td>
+							<td class='step-details'>
+									(Help_Page.Java:26) Help Section is opened
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:19:26 AM</td>
+							<td class='step-details'>
+									(Help_Page.Java:29) Help Section Closed Sucessufully
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='43'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_Record_Added_Or_Not</div>
+			<span class='node-time'>Feb 27, 2021 09:19:26 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:19:26 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:296) No of records are same as expected
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='44'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE</span>
+						<span class='test-time'>Feb 27, 2021 09:19:26 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:19:26 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:19:26 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='45'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Import_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:19:26 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:19:26 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:202) Total Records before importing: 2
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:19:26 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:204) Click on import button
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:19:46 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:207) Import People Page have been opened.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='46'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_Button_Visiblity_On_Import_Page</div>
+			<span class='node-time'>Feb 27, 2021 09:19:46 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:19:46 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:50) Check Given button Next is clickable or not
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:19:46 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:53) Given button Next is clickable : false
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='47'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE</span>
+						<span class='test-time'>Feb 27, 2021 09:19:46 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:19:46 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:19:46 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='48'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Download_Sample_File</div>
+			<span class='node-time'>Feb 27, 2021 09:19:46 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:19:46 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:60) Downloading sample File
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:07 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:62) Clicked on download sample file
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:07 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:87) downloading file in dir : OutputData/downloadFiles
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:12 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:121) Full Name with path is:OutputData\downloadFiles\import-people-csv-example.csv
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:12 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:127) Name is from File:import-people-csv-example.csv
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:12 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:128) Expected Name is:import-people-csv-example
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:12 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:141) Found Downloaded File
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:20:12 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:65) Sample File downloaded successfully
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='49'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE</span>
+						<span class='test-time'>Feb 27, 2021 09:20:12 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:20:12 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:20:12 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='50'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Upload_Given_File_On_Import_Page</div>
+			<span class='node-time'>Feb 27, 2021 09:20:12 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:12 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:37) Uploading Given File : InputData/Import_File/CSV_File/Test.csv
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:20:15 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:42) InputData/Import_File/CSV_File/Test.csv given File has been uploaded sucessufully
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='51'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Given_Button_On_Import_Page</div>
+			<span class='node-time'>Feb 27, 2021 09:20:15 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:15 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:78) Click on Button :  Next
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:20:36 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:93) Given Button : Next clicked succsessfully.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='52'>
+		<div class='collapsible-header'>
+			<div class='node-name'>By_Default_Map_Records_And_Override_Duplicates</div>
+			<span class='node-time'>Feb 27, 2021 09:20:36 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:36 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:109) Next button is clickable on 'map your fields page': true
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:20:56 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:111) Clicked on 'Next' button & user Navigated to 'choose an action page'
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:20:56 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:118) Next button is clickable on 'choose an action' page : true
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:21:16 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:120) Clicked on Next Button.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:26 AM</td>
+							<td class='step-details'>
+									(Import_People_Page.Java:123) Total Records after : 12
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='53'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_EXPORT_FUNCTIONALITY</span>
+						<span class='test-time'>Feb 27, 2021 09:21:26 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:21:26 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:21:26 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='54'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Export_Button</div>
+			<span class='node-time'>Feb 27, 2021 09:21:26 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:26 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:193) Click on export button
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='55'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_File_Downloaded</div>
+			<span class='node-time'>Feb 27, 2021 09:21:46 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:46 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:87) downloading file in dir : C:\Users\Administrator\.jenkins\Automation_Project\OutputData/downloadFiles
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:51 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:121) Full Name with path is:C:\Users\Administrator\.jenkins\Automation_Project\OutputData\downloadFiles\601b7be559e138003d9a0e96-GEVEME-Live.csv
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:51 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:127) Name is from File:601b7be559e138003d9a0e96-GEVEME-Live.csv
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:51 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:128) Expected Name is:601b7be559e138003d9a0e96-GEVEME-Live
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:51 AM</td>
+							<td class='step-details'>
+									(File_Utils.Java:141) Found Downloaded File
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:21:51 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:283) Records have been downloaded successfully.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='56'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_ADD_FILTER_FUNCTIONALITY</span>
+						<span class='test-time'>Feb 27, 2021 09:21:51 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:21:51 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:21:51 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='57'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Add_Filters</div>
+			<span class='node-time'>Feb 27, 2021 09:21:51 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:21:51 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:97) Click on Add Filters
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:22:11 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:100) Successfully clicked on Add Filters button.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='58'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Add_Filters</div>
+			<span class='node-time'>Feb 27, 2021 09:22:11 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:22:11 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:119) Click on field dropdown button
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:22:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:123) Successfully clicked on field dropdown button
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:22:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:127) Select the field name :  First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:22:52 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:131) Successfully selected the field : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:22:52 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:134) Click on condition dropdown button(contains/doesn't contains)
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:23:12 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:138) Successfully clicked on condition (contains/doesn't contains) dropdown button
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:23:12 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:142) Select the condition (contains/doesn't contains) :  contains
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:23:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:149) Successfully selected the condition : contains
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:23:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:152) Fill the text in input field of filter
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:23:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:156) Successfully entered value in input : Test
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='59'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Verify_Filter_Data_In_Given_Table_Column</div>
+			<span class='node-time'>Feb 27, 2021 09:23:34 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:23:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:382) [Test User1 first name, Test User2 first name]
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:23:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:387) Check firstname column contains value : Test
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:23:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:389) firstname column contains value : Test
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:23:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:387) Check firstname column contains value : Test
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:23:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:389) firstname column contains value : Test
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='60'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Clear_All_Filters</div>
+			<span class='node-time'>Feb 27, 2021 09:23:36 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:23:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:106) Click on 'Clear All Filter' button.
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:24:02 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:110) All the filters have been removed.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='61'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_SORTING_A_TO_Z_FROM_HEADER</span>
+						<span class='test-time'>Feb 27, 2021 09:24:02 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:24:02 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:24:02 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='62'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_On_Header_Title_DropDown</div>
+			<span class='node-time'>Feb 27, 2021 09:24:02 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:24:02 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:361) Click on Header Title DropDown : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:24:23 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:368) Successfully clicked on Header Title DropDown.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf fail' status='fail' test-id='63'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Validate_Sorting_A_To_Z</div>
+			<span class='node-time'>Feb 27, 2021 09:24:23 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right fail'>fail</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:24:43 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:24:43 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:437) Sorted : [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Test User1 first name, Test User2 first name]
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:25:04 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:361) Click on Header Title DropDown : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:25:25 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:368) Successfully clicked on Header Title DropDown.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:25:25 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:448) Click on 'Sort (A-Z)' of Header : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:26:05 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:593) All Data  [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Russell, Khim Wee]
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:26:26 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:361) Click on Header Title DropDown : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:26:47 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:368) Successfully clicked on Header Title DropDown.
+								
+							</td>
+						</tr>
+						<tr class='log' status='fail'>
+							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+							<td class='timestamp'>9:26:48 AM</td>
+							<td class='step-details'>
+									Test method failed
+								
+							</td>
+						</tr>
+						<tr class='log' status='fail'>
+							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+							<td class='timestamp'>9:26:48 AM</td>
+							<td class='step-details'>
+									(Annotation.Java:109) Unable to Sort A-Z expected [true] but found [false]
+org.testng.Assert.fail(Assert.java:94)<br />org.testng.Assert.failNotEquals(Assert.java:496)<br />org.testng.Assert.assertTrue(Assert.java:42)<br />com.common.ui.People_Page.Validate_Sorting_A_To_Z(People_Page.java:457)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)<br />org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)<br />org.apache.maven.surefire.Surefire.run(Surefire.java:169)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)<br />org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)<br />
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Administrator\.jenkins\Automation_Project\OutputData\Screenshots\Validate_Sorting_A_To_Z2ip.png' src='C:\Users\Administrator\.jenkins\Automation_Project\OutputData\Screenshots\Validate_Sorting_A_To_Z2ip.png' data-src='C:\Users\Administrator\.jenkins\Automation_Project\OutputData\Screenshots\Validate_Sorting_A_To_Z2ip.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='64'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_SORTING_Z_TO_A_FROM_HEADER</span>
+						<span class='test-time'>Feb 27, 2021 09:26:48 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:26:48 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:26:48 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf fail' status='fail' test-id='65'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Validate_Sorting_Z_To_A</div>
+			<span class='node-time'>Feb 27, 2021 09:26:48 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right fail'>fail</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:27:08 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:27:08 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:475) reverse Sorted : [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Janice, Jane]
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:27:28 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:361) Click on Header Title DropDown : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:27:49 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:368) Successfully clicked on Header Title DropDown.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:27:49 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:485) Click on 'Sort (Z-A)' of Header : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:28:30 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:593) All Data  [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Russell, Khim Wee]
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:28:50 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:361) Click on Header Title DropDown : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:29:11 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:368) Successfully clicked on Header Title DropDown.
+								
+							</td>
+						</tr>
+						<tr class='log' status='fail'>
+							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+							<td class='timestamp'>9:29:12 AM</td>
+							<td class='step-details'>
+									Test method failed
+								
+							</td>
+						</tr>
+						<tr class='log' status='fail'>
+							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+							<td class='timestamp'>9:29:12 AM</td>
+							<td class='step-details'>
+									(Annotation.Java:109) Unable to Sort Z-A expected [true] but found [false]
+org.testng.Assert.fail(Assert.java:94)<br />org.testng.Assert.failNotEquals(Assert.java:496)<br />org.testng.Assert.assertTrue(Assert.java:42)<br />com.common.ui.People_Page.Validate_Sorting_Z_To_A(People_Page.java:494)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)<br />org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)<br />org.apache.maven.surefire.Surefire.run(Surefire.java:169)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)<br />org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)<br />
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<ul class='screenshots'>
+					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='C:\Users\Administrator\.jenkins\Automation_Project\OutputData\Screenshots\Validate_Sorting_Z_To_A3lo.png' src='C:\Users\Administrator\.jenkins\Automation_Project\OutputData\Screenshots\Validate_Sorting_Z_To_A3lo.png' data-src='C:\Users\Administrator\.jenkins\Automation_Project\OutputData\Screenshots\Validate_Sorting_Z_To_A3lo.png'></li>
+				</ul>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='66'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER</span>
+						<span class='test-time'>Feb 27, 2021 09:29:12 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:29:12 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:29:12 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='67'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Click_Filters_From_Table_Header</div>
+			<span class='node-time'>Feb 27, 2021 09:29:12 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:29:12 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:418) Click on filter button from table Header : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:29:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:423) Successfully clicked on filter button from table Header : First Name
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='68'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER</span>
+						<span class='test-time'>Feb 27, 2021 09:29:32 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:29:32 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:29:32 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='69'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Validate_Search_Functionality</div>
+			<span class='node-time'>Feb 27, 2021 09:29:32 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:29:32 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:506) Search for ja in firstname
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:29:52 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:534) Search Filter is working fine for search result: firstname
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='70'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER</span>
+						<span class='test-time'>Feb 27, 2021 09:30:15 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:30:15 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:30:15 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='71'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Validate_Column_Hide_Functinality_From_Column_Header</div>
+			<span class='node-time'>Feb 27, 2021 09:30:15 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:30:15 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:555) Click on 'Hide' option of Header : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:30:55 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:561) Successfully clicked on 'Checkbox & : First Name column have been hide from the table.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:30:55 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:213) Click on 'Arrange Icon' button & open 'Arrange_Icon_Container' section.
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:31:15 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:217) Successfully clicked on 'Arrange Icon' button. 'Arrange_Icon_Container' section have been opened.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:31:15 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:565) Click on 'checkbox' to unhide the column :First
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:31:35 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:574) Successfully clicked on 'Checkbox & : First column have been unhide from the table.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='72'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY</span>
+						<span class='test-time'>Feb 27, 2021 09:31:35 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:31:35 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:31:35 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='73'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Open_Arrange_Icon_Container</div>
+			<span class='node-time'>Feb 27, 2021 09:31:35 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:31:35 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:213) Click on 'Arrange Icon' button & open 'Arrange_Icon_Container' section.
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:31:56 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:217) Successfully clicked on 'Arrange Icon' button. 'Arrange_Icon_Container' section have been opened.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='74'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Hide_Unhide_Table_Column</div>
+			<span class='node-time'>Feb 27, 2021 09:31:56 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:31:56 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:226) Click on 'checkbox' to hide the column : First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:32:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:233) Successfully clicked on 'Checkbox & : First Name column have been hide from the table.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:32:36 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:237) Click on 'checkbox' to unhide the column :First Name
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:32:56 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:242) Successfully clicked on 'Checkbox & : First Name column have been unhide from the table.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='75'>
+					<div class='test-heading'>
+						<span class='test-name'>VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY</span>
+						<span class='test-time'>Feb 27, 2021 09:32:56 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Feb 27, 2021 09:32:56 AM</span>
+	<span class='label end-time'>Feb 27, 2021 09:32:56 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+</div>
+<ul class='collapsible node-list' data-collapsible='accordion'>
+	<li class='node level-1 leaf pass' status='pass' test-id='76'>
+		<div class='collapsible-header'>
+			<div class='node-name'>Delete_Records</div>
+			<span class='node-time'>Feb 27, 2021 09:32:56 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:32:56 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:312) Deleting Records from table.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:33:18 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:251) Select all records.
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:33:41 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:258) All records have been selected.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:33:41 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:320) Clicking on Delete Button
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:34:01 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:324) Clicked on Delete Button
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:34:01 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:326) Clicking on 'Proceed to Delete' Button
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:34:21 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:330) Clicked on 'Proceed to Delete' Button
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:34:21 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:332) Deleting All Records
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:34:21 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:312) Deleting Records from table.
+								
+							</td>
+						</tr>
+						<tr class='log' status='info'>
+							<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+							<td class='timestamp'>9:34:21 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:314) No more records to delete.
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>9:34:21 AM</td>
+							<td class='step-details'>
+									(People_Page.Java:338) Successfully deleted all records.
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<div id='step-filters' class="right sr-filters">
+				<a class="btn-floating waves-effect waves-light green" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></a>
+				<a class="btn-floating waves-effect waves-light red" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light red darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></a>
+				<a class="btn-floating waves-effect waves-light pink text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></a>
+				<a class="btn-floating waves-effect waves-light orange" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></a>
+				<a class="btn-floating waves-effect waves-light teal" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></a>
+				<a class="btn-floating waves-effect waves-light grey" status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></a>
+			</div>
+			<h5 class='test-name'></h5>
+		</div>
+	</div>
+	<!-- subview right -->
+</div>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>22</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>54</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Feb 27, 2021 09:10:08 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Feb 27, 2021 09:34:21 AM</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 24m 13s+515ms</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->		</div>
+		<!-- container -->
+		<script>
+			var statusGroup = {
+                parentCount: 22,
+				passParent: 20,
+				failParent: 2,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 2,
+				childCount: 54,
+				passChild: 52,
+				failChild: 2,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				debugChild: 0,
+				exceptionsChild: 2,
+				grandChildCount: 0,
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				debugGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		<script>
+			var timeline = {
+			        "VERIFY_LOGIN_FUNCTIONALITY":0,"NAVIGATE_TO_PEOPLE_PAGE":0,"VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION":0,"VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION":0,"VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM":0,"VERIFY_SAVE_FUNCTIONALITY":0,"VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE":0,"VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM":0,"VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM":0,"VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE":0,"VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE":0,"VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE":0,"VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE":0,"VERIFY_EXPORT_FUNCTIONALITY":0,"VERIFY_ADD_FILTER_FUNCTIONALITY":0,"VERIFY_SORTING_A_TO_Z_FROM_HEADER":0,"VERIFY_SORTING_Z_TO_A_FROM_HEADER":0,"VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER":0,"VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER":0,"VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER":0,"VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY":0,"VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY":0
+			};
+		</script>
+		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/c23457b/v3html/js/extent.js' type='text/javascript'></script>
+		<script type='text/javascript'>
+		</script>
+	</body>
+</html>

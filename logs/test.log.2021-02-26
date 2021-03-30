@@ -1,0 +1,714 @@
+ INFO 2021-02-26 12:10:16,611 main: (Set_Webdriver.java:54) - Launching chrome driver +++ 
+ INFO 2021-02-26 12:10:17,059 main: (Annotation.java:41) - 
+
+========================================================================================================================================================
+<<<<< TEST SUITE Started : Suite_Name >>>>>
+========================================================================================================================================================
+
+ INFO 2021-02-26 12:10:17,061 main: (Annotation.java:59) - Creating Output Folder
+ INFO 2021-02-26 12:10:17,062 main: (Annotation.java:62) - Output folder created
+ INFO 2021-02-26 12:10:17,070 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_LOGIN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:10:17,190 main: (Util.java:94) - (Login_Page.Java:27) Navigating to URL: https://xpmgr.gevme.com/login
+ INFO 2021-02-26 12:10:27,299 main: (Util.java:94) - (Login_Page.Java:30) Successfully Navigated to URL: https://xpmgr.gevme.com/login
+ INFO 2021-02-26 12:10:27,305 main: (Util.java:94) - (Login_Page.Java:38) Enter given email :  testinggsi1@gmail.com
+ INFO 2021-02-26 12:10:27,680 main: (Util.java:94) - (Login_Page.Java:42) Successfully entered given email :  testinggsi1@gmail.com
+ INFO 2021-02-26 12:10:27,681 main: (Util.java:94) - (Login_Page.Java:45) Click on submit button.
+ INFO 2021-02-26 12:10:47,967 main: (Util.java:94) - (Login_Page.Java:48) Successfully Clicked on submit button.
+ INFO 2021-02-26 12:10:52,567 main: (Util.java:94) - (Login_Page.Java:53) Enter given OTP : 9568
+ INFO 2021-02-26 12:10:54,520 main: (Util.java:94) - (Login_Page.Java:56) Correct OTP entered. Successfully logged in XPmgr.
+ INFO 2021-02-26 12:10:54,522 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_LOGIN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:10:54,546 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "NAVIGATE_TO_PEOPLE_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:10:54,550 main: (Util.java:94) - (Project_List_Page.Java:25) Click on the project :  V Test
+ INFO 2021-02-26 12:11:15,021 main: (Util.java:94) - (Project_List_Page.Java:29) Successfully clicked on given project : V Test
+ INFO 2021-02-26 12:11:15,025 main: (Util.java:94) - (ProjectDetail_Page.Java:18) Click on People link to open People Module. 
+ INFO 2021-02-26 12:11:57,984 main: (Util.java:94) - (ProjectDetail_Page.Java:26) People module/page opened. 
+ INFO 2021-02-26 12:11:57,986 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "NAVIGATE_TO_PEOPLE_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:11:57,996 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:11:58,048 main: (Util.java:94) - (People_Page.Java:67) Help Scetion is already opened
+ INFO 2021-02-26 12:11:58,057 main: (Util.java:94) - (Help_Page.Java:39) Click on Import Button From Help Section 
+ INFO 2021-02-26 12:12:18,682 main: (Util.java:94) - (Help_Page.Java:42) Successfully clicked on Import button, Upload file page open. 
+ INFO 2021-02-26 12:12:18,686 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Cancel
+ INFO 2021-02-26 12:12:39,356 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-26 12:12:39,358 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:12:39,364 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:12:39,436 main: (Util.java:94) - (People_Page.Java:69) Click on 'Help' button & open 'Help' section.
+ INFO 2021-02-26 12:12:50,972 main: (Util.java:94) - (Annotation.Java:109) element click intercepted: Element <button class="btn btn-sm btn-help">...</button> is not clickable at point (1367, 103). Other element would receive the click: <div role="dialog" aria-modal="true" class="fade modal show" tabindex="-1" aria-labelledby="contained-modal-title-vcenter" style="display: block; padding-left: 17px;">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EC2AMAZ-VP7JDPQ', ip: '10.10.101.27', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6b9cf9610cf96f45df4123b9cee833
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />com.webdriverutilities.Click.Webdriver_Click(Click.java:31)<br />com.common.ui.People_Page.Open_Help_Section(People_Page.java:70)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:12:50,978 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:12:50,994 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:13:52,126 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:13:52,127 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 0
+ INFO 2021-02-26 12:14:03,658 main: (Util.java:94) - (Annotation.Java:109) element click intercepted: Element <p>...</p> is not clickable at point (245, 184). Other element would receive the click: <div role="dialog" aria-modal="true" class="fade modal show" tabindex="-1" aria-labelledby="contained-modal-title-vcenter" style="display: block; padding-left: 17px;">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EC2AMAZ-VP7JDPQ', ip: '10.10.101.27', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6b9cf9610cf96f45df4123b9cee833
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />com.webdriverutilities.Click.Webdriver_Click(Click.java:31)<br />com.common.ui.People_Page.Click_On_New_Button(People_Page.java:186)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:14:03,670 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:14:03,694 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:15:04,842 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:15:04,842 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 0
+ INFO 2021-02-26 12:15:16,366 main: (Util.java:94) - (Annotation.Java:109) element click intercepted: Element <p>...</p> is not clickable at point (245, 184). Other element would receive the click: <div role="dialog" aria-modal="true" class="fade modal show" tabindex="-1" aria-labelledby="contained-modal-title-vcenter" style="display: block; padding-left: 17px;">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EC2AMAZ-VP7JDPQ', ip: '10.10.101.27', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6b9cf9610cf96f45df4123b9cee833
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />com.webdriverutilities.Click.Webdriver_Click(Click.java:31)<br />com.common.ui.People_Page.Click_On_New_Button(People_Page.java:186)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:15:16,375 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:15:16,386 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:16:17,519 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:16:17,520 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 0
+ INFO 2021-02-26 12:16:28,989 main: (Util.java:94) - (Annotation.Java:109) element click intercepted: Element <p>...</p> is not clickable at point (245, 184). Other element would receive the click: <div role="dialog" aria-modal="true" class="fade modal show" tabindex="-1" aria-labelledby="contained-modal-title-vcenter" style="display: block; padding-left: 17px;">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EC2AMAZ-VP7JDPQ', ip: '10.10.101.27', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6b9cf9610cf96f45df4123b9cee833
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />com.webdriverutilities.Click.Webdriver_Click(Click.java:31)<br />com.common.ui.People_Page.Click_On_New_Button(People_Page.java:186)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:16:28,994 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:16:29,011 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:17:30,152 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:17:30,154 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 0
+ INFO 2021-02-26 12:17:41,644 main: (Util.java:94) - (Annotation.Java:109) element click intercepted: Element <p>...</p> is not clickable at point (245, 184). Other element would receive the click: <div role="dialog" aria-modal="true" class="fade modal show" tabindex="-1" aria-labelledby="contained-modal-title-vcenter" style="display: block; padding-left: 17px;">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EC2AMAZ-VP7JDPQ', ip: '10.10.101.27', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6b9cf9610cf96f45df4123b9cee833
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />com.webdriverutilities.Click.Webdriver_Click(Click.java:31)<br />com.common.ui.People_Page.Click_On_New_Button(People_Page.java:186)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:17:41,647 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:17:41,655 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:18:42,823 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:18:42,826 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 0
+ INFO 2021-02-26 12:18:54,375 main: (Util.java:94) - (Annotation.Java:109) element click intercepted: Element <p>...</p> is not clickable at point (245, 184). Other element would receive the click: <div role="dialog" aria-modal="true" class="fade modal show" tabindex="-1" aria-labelledby="contained-modal-title-vcenter" style="display: block; padding-left: 17px;">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EC2AMAZ-VP7JDPQ', ip: '10.10.101.27', os.name: 'Windows Server 2019', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64994}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ba6b9cf9610cf96f45df4123b9cee833
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />com.webdriverutilities.Click.Webdriver_Click(Click.java:31)<br />com.common.ui.People_Page.Click_On_New_Button(People_Page.java:186)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:18:54,377 main: (Util.java:94) - (New_Record_Form.Java:143) Click on close icon
+ INFO 2021-02-26 12:18:54,377 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:18:56,967 main: (Util.java:94) - (New_Record_Form.Java:151) Closed icon clicked succsessfully.
+ INFO 2021-02-26 12:19:58,006 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:19:58,010 main: (Util.java:94) - (New_Record_Form.Java:153) Total Records after : 0
+ INFO 2021-02-26 12:19:58,019 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:19:58,034 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:20:59,118 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:20:59,118 main: (Util.java:94) - (People_Page.Java:202) Total Records before importing: 0
+ INFO 2021-02-26 12:20:59,119 main: (Util.java:94) - (People_Page.Java:204) Click on import button
+ INFO 2021-02-26 12:21:19,565 main: (Util.java:94) - (People_Page.Java:207) Import People Page have been opened.
+ INFO 2021-02-26 12:21:19,570 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Cancel
+ INFO 2021-02-26 12:21:40,268 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-26 12:21:40,325 main: (Util.java:94) - (Help_Page.Java:26) Help Section is opened 
+ INFO 2021-02-26 12:22:00,541 main: (Util.java:94) - (Help_Page.Java:29) Help Section Closed Sucessufully
+ INFO 2021-02-26 12:22:00,544 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-26 12:22:00,545 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:22:00,554 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:23:15,368 main: (Set_Webdriver.java:54) - Launching chrome driver +++ 
+ INFO 2021-02-26 12:23:15,762 main: (Annotation.java:41) - 
+
+========================================================================================================================================================
+<<<<< TEST SUITE Started : Suite_Name >>>>>
+========================================================================================================================================================
+
+ INFO 2021-02-26 12:23:15,765 main: (Annotation.java:52) - Cleaning the OutputData folder.
+ INFO 2021-02-26 12:23:15,791 main: (Annotation.java:59) - Creating Output Folder
+ INFO 2021-02-26 12:23:15,792 main: (Annotation.java:62) - Output folder created
+ INFO 2021-02-26 12:23:15,799 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_LOGIN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:23:15,945 main: (Util.java:94) - (Login_Page.Java:27) Navigating to URL: https://xpmgr.gevme.com/login
+ INFO 2021-02-26 12:23:26,083 main: (Util.java:94) - (Login_Page.Java:30) Successfully Navigated to URL: https://xpmgr.gevme.com/login
+ INFO 2021-02-26 12:23:26,090 main: (Util.java:94) - (Login_Page.Java:38) Enter given email :  testinggsi1@gmail.com
+ INFO 2021-02-26 12:23:26,463 main: (Util.java:94) - (Login_Page.Java:42) Successfully entered given email :  testinggsi1@gmail.com
+ INFO 2021-02-26 12:23:26,464 main: (Util.java:94) - (Login_Page.Java:45) Click on submit button.
+ INFO 2021-02-26 12:23:46,843 main: (Util.java:94) - (Login_Page.Java:48) Successfully Clicked on submit button.
+ INFO 2021-02-26 12:23:50,976 main: (Util.java:94) - (Login_Page.Java:53) Enter given OTP : 3964
+ INFO 2021-02-26 12:23:53,667 main: (Util.java:94) - (Login_Page.Java:56) Correct OTP entered. Successfully logged in XPmgr.
+ INFO 2021-02-26 12:23:53,669 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_LOGIN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:23:53,708 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "NAVIGATE_TO_PEOPLE_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:23:53,720 main: (Util.java:94) - (Project_List_Page.Java:25) Click on the project :  V Test
+ INFO 2021-02-26 12:24:14,382 main: (Util.java:94) - (Project_List_Page.Java:29) Successfully clicked on given project : V Test
+ INFO 2021-02-26 12:24:14,402 main: (Util.java:94) - (ProjectDetail_Page.Java:18) Click on People link to open People Module. 
+ INFO 2021-02-26 12:24:57,918 main: (Util.java:94) - (ProjectDetail_Page.Java:26) People module/page opened. 
+ INFO 2021-02-26 12:24:57,920 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "NAVIGATE_TO_PEOPLE_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:24:57,930 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:24:58,013 main: (Util.java:94) - (People_Page.Java:67) Help Scetion is already opened
+ INFO 2021-02-26 12:24:58,017 main: (Util.java:94) - (Help_Page.Java:39) Click on Import Button From Help Section 
+ INFO 2021-02-26 12:25:18,472 main: (Util.java:94) - (Help_Page.Java:42) Successfully clicked on Import button, Upload file page open. 
+ INFO 2021-02-26 12:25:18,478 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Cancel
+ INFO 2021-02-26 12:25:39,006 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-26 12:25:39,009 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:25:39,020 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:25:39,080 main: (Util.java:94) - (People_Page.Java:67) Help Scetion is already opened
+ INFO 2021-02-26 12:25:39,086 main: (Util.java:94) - (Help_Page.Java:53) Click on Create Button From Help Section 
+ INFO 2021-02-26 12:25:59,407 main: (Visible.java:55) - Pausing the Execution for 0 Seconds.
+ INFO 2021-02-26 12:25:59,474 main: (Util.java:94) - (Help_Page.Java:57) Successfully clicked on Create button, 'New Record Form' Opened. 
+ INFO 2021-02-26 12:25:59,478 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Cancel
+ INFO 2021-02-26 12:26:19,734 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-26 12:27:20,836 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:27:20,837 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 0
+ INFO 2021-02-26 12:27:40,904 main: (Visible.java:113) - Element not found
+ INFO 2021-02-26 12:27:40,905 main: (Util.java:94) - (Help_Page.Java:31) Help Section is already closed 
+ INFO 2021-02-26 12:27:40,908 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:27:40,917 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:28:42,015 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-26 12:28:42,015 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 0
+ INFO 2021-02-26 12:29:02,545 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-26 12:29:02,554 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 first name , in input box : firstname
+ INFO 2021-02-26 12:29:02,927 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 first name , in given field : firstname
+ INFO 2021-02-26 12:29:02,927 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 last name , in input box : lastname
+ INFO 2021-02-26 12:29:03,236 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 last name , in given field : lastname
+ INFO 2021-02-26 12:29:03,240 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  testUser1@gmail.com , in input box : email
+ INFO 2021-02-26 12:29:03,507 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : testUser1@gmail.com , in given field : email
+ INFO 2021-02-26 12:29:03,508 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 job title , in input box : jobTitle
+ INFO 2021-02-26 12:29:03,825 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 job title , in given field : jobTitle
+ INFO 2021-02-26 12:29:03,826 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 company , in input box : company
+ INFO 2021-02-26 12:29:04,076 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 company , in given field : company
+ INFO 2021-02-26 12:29:04,081 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Save and create another
+ INFO 2021-02-26 12:29:24,414 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Save and create another clicked succsessfully.
+ INFO 2021-02-26 12:29:24,515 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 1
+ INFO 2021-02-26 12:29:24,529 main: (Util.java:94) - (New_Record_Form.Java:143) Click on close icon
+ INFO 2021-02-26 12:29:24,529 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:29:26,861 main: (Util.java:94) - (New_Record_Form.Java:151) Closed icon clicked succsessfully.
+ INFO 2021-02-26 12:29:26,939 main: (Util.java:94) - (New_Record_Form.Java:153) Total Records after : 1
+ INFO 2021-02-26 12:29:26,946 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-26 12:29:26,948 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:29:26,963 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:29:27,071 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 1
+ INFO 2021-02-26 12:29:47,343 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-26 12:29:47,348 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 first name , in input box : firstname
+ INFO 2021-02-26 12:29:47,600 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 first name , in given field : firstname
+ INFO 2021-02-26 12:29:47,601 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 last name , in input box : lastname
+ INFO 2021-02-26 12:29:47,875 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 last name , in given field : lastname
+ INFO 2021-02-26 12:29:47,877 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  testUser2@gmail.com , in input box : email
+ INFO 2021-02-26 12:29:48,155 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : testUser2@gmail.com , in given field : email
+ INFO 2021-02-26 12:29:48,155 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 job title , in input box : jobTitle
+ INFO 2021-02-26 12:29:48,493 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 job title , in given field : jobTitle
+ INFO 2021-02-26 12:29:48,493 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 company , in input box : company
+ INFO 2021-02-26 12:29:48,643 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 company , in given field : company
+ INFO 2021-02-26 12:29:48,645 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Save
+ INFO 2021-02-26 12:30:08,987 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Save clicked succsessfully.
+ INFO 2021-02-26 12:30:09,130 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 2
+ INFO 2021-02-26 12:30:09,139 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-26 12:30:09,156 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:30:09,172 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:30:09,276 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 2
+ INFO 2021-02-26 12:30:29,567 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-26 12:30:29,571 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 first name , in input box : firstname
+ INFO 2021-02-26 12:30:29,893 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 first name , in given field : firstname
+ INFO 2021-02-26 12:30:29,894 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 last name , in input box : lastname
+ INFO 2021-02-26 12:30:30,267 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 last name , in given field : lastname
+ INFO 2021-02-26 12:30:30,291 main: (Util.java:94) - (New_Record_Form.Java:103) Check Given button Save is clickable or not
+ INFO 2021-02-26 12:30:30,330 main: (Util.java:94) - (New_Record_Form.Java:106) Given button Save is clickable : false
+ INFO 2021-02-26 12:30:30,342 main: (Util.java:94) - (New_Record_Form.Java:103) Check Given button Save and create another is clickable or not
+ INFO 2021-02-26 12:30:30,350 main: (Util.java:94) - (New_Record_Form.Java:106) Given button Save and create another is clickable : false
+ INFO 2021-02-26 12:30:30,354 main: (Util.java:94) - (New_Record_Form.Java:143) Click on close icon
+ INFO 2021-02-26 12:30:30,354 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:30:32,687 main: (Util.java:94) - (New_Record_Form.Java:151) Closed icon clicked succsessfully.
+ INFO 2021-02-26 12:30:32,747 main: (Util.java:94) - (New_Record_Form.Java:153) Total Records after : 2
+ INFO 2021-02-26 12:30:32,749 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:30:32,763 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:30:32,850 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 2
+ INFO 2021-02-26 12:30:53,195 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-26 12:30:53,202 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Cancel
+ INFO 2021-02-26 12:31:13,473 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-26 12:31:13,553 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 2
+ INFO 2021-02-26 12:31:13,557 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-26 12:31:13,558 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:31:13,569 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:31:13,682 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 2
+ INFO 2021-02-26 12:31:33,921 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-26 12:31:33,924 main: (Util.java:94) - (New_Record_Form.Java:143) Click on close icon
+ INFO 2021-02-26 12:31:33,924 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:31:36,206 main: (Util.java:94) - (New_Record_Form.Java:151) Closed icon clicked succsessfully.
+ INFO 2021-02-26 12:31:36,292 main: (Util.java:94) - (New_Record_Form.Java:153) Total Records after : 2
+ INFO 2021-02-26 12:31:36,305 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:31:36,321 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:31:36,429 main: (Util.java:94) - (People_Page.Java:202) Total Records before importing: 2
+ INFO 2021-02-26 12:31:36,429 main: (Util.java:94) - (People_Page.Java:204) Click on import button
+ INFO 2021-02-26 12:31:56,786 main: (Util.java:94) - (People_Page.Java:207) Import People Page have been opened.
+ INFO 2021-02-26 12:31:56,789 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Cancel
+ INFO 2021-02-26 12:32:17,525 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-26 12:32:17,552 main: (Util.java:94) - (Help_Page.Java:26) Help Section is opened 
+ INFO 2021-02-26 12:32:37,719 main: (Util.java:94) - (Help_Page.Java:29) Help Section Closed Sucessufully
+ INFO 2021-02-26 12:32:37,721 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-26 12:32:37,722 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:32:37,732 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:32:37,822 main: (Util.java:94) - (People_Page.Java:202) Total Records before importing: 2
+ INFO 2021-02-26 12:32:37,822 main: (Util.java:94) - (People_Page.Java:204) Click on import button
+ INFO 2021-02-26 12:32:58,061 main: (Util.java:94) - (People_Page.Java:207) Import People Page have been opened.
+ INFO 2021-02-26 12:32:58,085 main: (Util.java:94) - (Import_People_Page.Java:50) Check Given button Next is clickable or not
+ INFO 2021-02-26 12:32:58,105 main: (Util.java:94) - (Import_People_Page.Java:53) Given button Next is clickable : false
+ INFO 2021-02-26 12:32:58,108 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:32:58,119 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:32:58,121 main: (Util.java:94) - (Import_People_Page.Java:60) Downloading sample File
+ INFO 2021-02-26 12:33:18,350 main: (Util.java:94) - (Import_People_Page.Java:62) Clicked on download sample file
+ INFO 2021-02-26 12:33:18,352 main: (Util.java:94) - (File_Utils.Java:87) downloading file in dir : OutputData/downloadFiles
+ INFO 2021-02-26 12:33:23,355 main: (Util.java:94) - (File_Utils.Java:121) Full Name with path is:OutputData\downloadFiles\import-people-csv-example.csv
+ INFO 2021-02-26 12:33:23,356 main: (Util.java:94) - (File_Utils.Java:127) Name is from File:import-people-csv-example.csv
+ INFO 2021-02-26 12:33:23,357 main: (Util.java:94) - (File_Utils.Java:128) Expected Name is:import-people-csv-example
+ INFO 2021-02-26 12:33:23,357 main: (Util.java:94) - (File_Utils.Java:141) Found Downloaded File
+ INFO 2021-02-26 12:33:23,358 main: (Util.java:94) - (Import_People_Page.Java:65) Sample File downloaded successfully
+ INFO 2021-02-26 12:33:23,359 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:33:23,369 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:33:23,376 main: (Util.java:94) - (Import_People_Page.Java:37) Uploading Given File : InputData/Import_File/CSV_File/Test.csv
+ INFO 2021-02-26 12:33:27,358 main: (Util.java:94) - (Import_People_Page.Java:42) InputData/Import_File/CSV_File/Test.csv given File has been uploaded sucessufully
+ INFO 2021-02-26 12:33:27,359 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Next
+ INFO 2021-02-26 12:33:47,630 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Next clicked succsessfully.
+ INFO 2021-02-26 12:33:47,669 main: (Util.java:94) - (Import_People_Page.Java:109) Next button is clickable on 'map your fields page': true
+ INFO 2021-02-26 12:34:07,823 main: (Util.java:94) - (Import_People_Page.Java:111) Clicked on 'Next' button & user Navigated to 'choose an action page'
+ INFO 2021-02-26 12:34:07,861 main: (Util.java:94) - (Import_People_Page.Java:118) Next button is clickable on 'choose an action' page : true
+ INFO 2021-02-26 12:34:27,988 main: (Util.java:94) - (Import_People_Page.Java:120) Clicked on Next Button.
+ INFO 2021-02-26 12:34:38,077 main: (Util.java:94) - (Import_People_Page.Java:123) Total Records after : 12
+ INFO 2021-02-26 12:34:38,078 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:34:38,081 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_EXPORT_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:34:38,085 main: (Util.java:94) - (People_Page.Java:193) Click on export button
+ INFO 2021-02-26 12:34:58,256 main: (Util.java:94) - (File_Utils.Java:87) downloading file in dir : C:\Users\Administrator\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\Automation_Project\OutputData/downloadFiles
+ INFO 2021-02-26 12:35:03,257 main: (Util.java:94) - (File_Utils.Java:121) Full Name with path is:C:\Users\Administrator\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\Automation_Project\OutputData\downloadFiles\601b7be559e138003d9a0e96-GEVEME-Live.csv
+ INFO 2021-02-26 12:35:03,258 main: (Util.java:94) - (File_Utils.Java:127) Name is from File:601b7be559e138003d9a0e96-GEVEME-Live.csv
+ INFO 2021-02-26 12:35:03,258 main: (Util.java:94) - (File_Utils.Java:128) Expected Name is:601b7be559e138003d9a0e96-GEVEME-Live
+ INFO 2021-02-26 12:35:03,258 main: (Util.java:94) - (File_Utils.Java:141) Found Downloaded File
+ INFO 2021-02-26 12:35:03,258 main: (Util.java:94) - (People_Page.Java:283) Records have been downloaded successfully.
+ INFO 2021-02-26 12:35:03,259 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_EXPORT_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:35:03,274 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_ADD_FILTER_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:35:03,276 main: (Util.java:94) - (People_Page.Java:97) Click on Add Filters
+ INFO 2021-02-26 12:35:23,652 main: (Util.java:94) - (People_Page.Java:100) Successfully clicked on Add Filters button.
+ INFO 2021-02-26 12:35:23,662 main: (Util.java:94) - (People_Page.Java:119) Click on field dropdown button
+ INFO 2021-02-26 12:35:43,931 main: (Util.java:94) - (People_Page.Java:123) Successfully clicked on field dropdown button
+ INFO 2021-02-26 12:35:43,932 main: (Util.java:94) - (People_Page.Java:127) Select the field name :  First Name
+ INFO 2021-02-26 12:36:04,267 main: (Util.java:94) - (People_Page.Java:131) Successfully selected the field : First Name
+ INFO 2021-02-26 12:36:04,267 main: (Util.java:94) - (People_Page.Java:134) Click on condition dropdown button(contains/doesn't contains)
+ INFO 2021-02-26 12:36:24,452 main: (Util.java:94) - (People_Page.Java:138) Successfully clicked on condition (contains/doesn't contains) dropdown button
+ INFO 2021-02-26 12:36:24,453 main: (Util.java:94) - (People_Page.Java:142) Select the condition (contains/doesn't contains) :  contains
+ INFO 2021-02-26 12:36:44,612 main: (Util.java:94) - (People_Page.Java:149) Successfully selected the condition : contains
+ INFO 2021-02-26 12:36:44,613 main: (Util.java:94) - (People_Page.Java:152) Fill the text in input field of filter 
+ INFO 2021-02-26 12:36:44,923 main: (Util.java:94) - (People_Page.Java:156) Successfully entered value in input : Test
+ INFO 2021-02-26 12:36:44,923 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:36:46,927 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:36:48,980 main: (Util.java:94) - (People_Page.Java:382) [Test User1 first name, Test User2 first name]
+ INFO 2021-02-26 12:36:48,980 main: (Util.java:94) - (People_Page.Java:387) Check firstname column contains value : Test
+ INFO 2021-02-26 12:36:48,981 main: (Util.java:94) - (People_Page.Java:389) firstname column contains value : Test
+ INFO 2021-02-26 12:36:48,981 main: (Util.java:94) - (People_Page.Java:387) Check firstname column contains value : Test
+ INFO 2021-02-26 12:36:48,981 main: (Util.java:94) - (People_Page.Java:389) firstname column contains value : Test
+ INFO 2021-02-26 12:36:48,984 main: (Util.java:94) - (People_Page.Java:106) Click on 'Clear All Filter' button.
+ INFO 2021-02-26 12:37:09,298 main: (Visible.java:55) - Pausing the Execution for 5 Seconds.
+ INFO 2021-02-26 12:37:14,348 main: (Util.java:94) - (People_Page.Java:110) All the filters have been removed.
+ INFO 2021-02-26 12:37:14,350 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_ADD_FILTER_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:37:14,369 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SORTING_A_TO_Z_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:37:14,372 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-26 12:37:34,686 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-26 12:37:35,765 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-26 12:37:56,246 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+ INFO 2021-02-26 12:37:56,247 main: (Util.java:94) - (People_Page.Java:437) Sorted : [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Test User1 first name, Test User2 first name]
+ INFO 2021-02-26 12:38:16,514 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-26 12:38:36,625 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-26 12:38:37,699 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-26 12:38:37,701 main: (Util.java:94) - (People_Page.Java:448) Click on 'Sort (A-Z)' of Header : First Name
+ INFO 2021-02-26 12:39:18,387 main: (Util.java:94) - (People_Page.Java:593) All Data  [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Russell, Khim Wee]
+ INFO 2021-02-26 12:39:38,600 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-26 12:39:58,719 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-26 12:39:59,791 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-26 12:40:00,512 main: (Util.java:94) - (Annotation.Java:109) Unable to Sort A-Z expected [true] but found [false]
+org.testng.Assert.fail(Assert.java:94)<br />org.testng.Assert.failNotEquals(Assert.java:496)<br />org.testng.Assert.assertTrue(Assert.java:42)<br />com.common.ui.People_Page.Validate_Sorting_A_To_Z(People_Page.java:457)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:40:00,514 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SORTING_A_TO_Z_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:40:00,520 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SORTING_Z_TO_A_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:40:21,052 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+ INFO 2021-02-26 12:40:21,054 main: (Util.java:94) - (People_Page.Java:475) reverse Sorted : [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Janice, Jane]
+ INFO 2021-02-26 12:40:41,265 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-26 12:41:01,362 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-26 12:41:02,452 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-26 12:41:02,453 main: (Util.java:94) - (People_Page.Java:485) Click on 'Sort (Z-A)' of Header : First Name
+ INFO 2021-02-26 12:41:43,101 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Russell, Khim Wee]
+ INFO 2021-02-26 12:42:03,340 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-26 12:42:23,425 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-26 12:42:24,485 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-26 12:42:24,891 main: (Util.java:94) - (Annotation.Java:109) Unable to Sort Z-A expected [true] but found [false]
+org.testng.Assert.fail(Assert.java:94)<br />org.testng.Assert.failNotEquals(Assert.java:496)<br />org.testng.Assert.assertTrue(Assert.java:42)<br />com.common.ui.People_Page.Validate_Sorting_Z_To_A(People_Page.java:494)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)<br />java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ INFO 2021-02-26 12:42:24,892 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SORTING_Z_TO_A_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:42:24,902 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:42:24,903 main: (Util.java:94) - (People_Page.Java:418) Click on filter button from table Header : First Name
+ INFO 2021-02-26 12:42:45,219 main: (Util.java:94) - (People_Page.Java:423) Successfully clicked on filter button from table Header : First Name
+ INFO 2021-02-26 12:42:45,226 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:42:45,241 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:42:45,243 main: (Util.java:94) - (People_Page.Java:506) Search for ja in firstname
+ INFO 2021-02-26 12:43:05,962 main: (Util.java:94) - (People_Page.Java:534) Search Filter is working fine for search result: firstname
+ INFO 2021-02-26 12:43:26,244 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:43:28,246 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:43:28,254 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:43:28,256 main: (Util.java:94) - (People_Page.Java:555) Click on 'Hide' option of Header : First Name
+ INFO 2021-02-26 12:44:08,527 main: (Visible.java:113) - Element not found
+ INFO 2021-02-26 12:44:08,527 main: (Util.java:94) - (People_Page.Java:561) Successfully clicked on 'Checkbox & : First Name column have been hide from the table.
+ INFO 2021-02-26 12:44:08,528 main: (Util.java:94) - (People_Page.Java:213) Click on 'Arrange Icon' button & open 'Arrange_Icon_Container' section.
+ INFO 2021-02-26 12:44:28,798 main: (Util.java:94) - (People_Page.Java:217) Successfully clicked on 'Arrange Icon' button. 'Arrange_Icon_Container' section have been opened.
+ INFO 2021-02-26 12:44:28,799 main: (Util.java:94) - (People_Page.Java:565) Click on 'checkbox' to unhide the column :First
+ INFO 2021-02-26 12:44:49,112 main: (Util.java:94) - (People_Page.Java:574) Successfully clicked on 'Checkbox & : First column have been unhide from the table.
+ INFO 2021-02-26 12:44:49,114 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:44:49,122 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:44:49,127 main: (Util.java:94) - (People_Page.Java:213) Click on 'Arrange Icon' button & open 'Arrange_Icon_Container' section.
+ INFO 2021-02-26 12:45:09,513 main: (Util.java:94) - (People_Page.Java:217) Successfully clicked on 'Arrange Icon' button. 'Arrange_Icon_Container' section have been opened.
+ INFO 2021-02-26 12:45:09,517 main: (Util.java:94) - (People_Page.Java:226) Click on 'checkbox' to hide the column : First Name
+ INFO 2021-02-26 12:45:49,787 main: (Visible.java:113) - Element not found
+ INFO 2021-02-26 12:45:49,788 main: (Util.java:94) - (People_Page.Java:233) Successfully clicked on 'Checkbox & : First Name column have been hide from the table.
+ INFO 2021-02-26 12:45:49,789 main: (Util.java:94) - (People_Page.Java:237) Click on 'checkbox' to unhide the column :First Name
+ INFO 2021-02-26 12:46:10,065 main: (Util.java:94) - (People_Page.Java:242) Successfully clicked on 'Checkbox & : First Name column have been unhide from the table.
+ INFO 2021-02-26 12:46:10,067 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:46:10,072 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:46:10,074 main: (Util.java:94) - (People_Page.Java:312) Deleting Records from table.
+ INFO 2021-02-26 12:46:30,125 main: (Visible.java:113) - Element not found
+ INFO 2021-02-26 12:46:31,759 main: (Util.java:94) - (People_Page.Java:251) Select all records.
+ INFO 2021-02-26 12:46:31,759 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-26 12:46:54,800 main: (Util.java:94) - (People_Page.Java:258) All records have been selected.
+ INFO 2021-02-26 12:46:54,800 main: (Util.java:94) - (People_Page.Java:320) Clicking on Delete Button
+ INFO 2021-02-26 12:47:15,044 main: (Util.java:94) - (People_Page.Java:324) Clicked on Delete Button
+ INFO 2021-02-26 12:47:15,044 main: (Util.java:94) - (People_Page.Java:326) Clicking on 'Proceed to Delete' Button
+ INFO 2021-02-26 12:47:35,351 main: (Util.java:94) - (People_Page.Java:330) Clicked on 'Proceed to Delete' Button
+ INFO 2021-02-26 12:47:35,351 main: (Util.java:94) - (People_Page.Java:332) Deleting All Records
+ INFO 2021-02-26 12:47:35,351 main: (Util.java:94) - (People_Page.Java:312) Deleting Records from table.
+ INFO 2021-02-26 12:47:35,387 main: (Util.java:94) - (People_Page.Java:314) No more records to delete.
+ INFO 2021-02-26 12:47:35,420 main: (Util.java:94) - (People_Page.Java:338) Successfully deleted all records.
+ INFO 2021-02-26 12:47:35,422 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-26 12:47:35,989 main: (Annotation.java:119) - 
+
+========================================================================================================================================================
+<<<<< TEST SUITE ENDED : Suite_Name >>>>>
+========================================================================================================================================================
+
+ INFO 2021-02-26 12:47:35,990 main: (Annotation.java:123) - Saving data into Environment Propertie File

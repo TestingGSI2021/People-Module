@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 56, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 1,458.75 sec <<< FAILURE!
+Validate_Sorting_A_To_Z(com.common.ui.People_Page)  Time elapsed: 143.911 sec  <<< FAILURE!
+java.lang.AssertionError: Unable to Sort A-Z expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.common.ui.People_Page.Validate_Sorting_A_To_Z(People_Page.java:457)
+
+Validate_Sorting_Z_To_A(com.common.ui.People_Page)  Time elapsed: 143.694 sec  <<< FAILURE!
+java.lang.AssertionError: Unable to Sort Z-A expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.common.ui.People_Page.Validate_Sorting_Z_To_A(People_Page.java:494)
+

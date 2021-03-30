@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NEW_RECORD_SUITE">
+  <test name="LOGIN">
+  <groups>
+			<define name="all">
+				<include name="Login" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		</groups>
+    <classes>
+      <class name="com.common.ui.Login_Page"/>
+    </classes>
+  </test> 
+ <test name="NAVIGATE_TO_PEOPLE_PAGE">
+   <parameter name="project_Name" value="DND QA People Module3" />
+     <groups>
+			<define name="all">
+				<include name="Open_Project" />
+				<include name="Click_On_People_Link" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+			<dependencies>
+				<group name="Click_On_People_Link" depends-on="Open_Project" />
+			
+			</dependencies>
+			
+		</groups>
+		
+    <classes>
+      <class name="com.common.ui.Project_List_Page"/>
+      <class name="com.common.ui.ProjectDetail_Page"/>
+    </classes>
+  </test> 
+   <test name="CLOSE_HELP_SECTION">
+     <groups>
+			<define name="all">
+				<include name="Close_Help_Section" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+			
+			
+		</groups>
+		
+    <classes>
+      <class name="com.common.ui.Help_Page"/>
+    </classes>
+  </test> 
+ <test name="VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE">
+   <parameter  name="button_name" value="Cancel" />
+    <parameter name= "expected_Difference" value="0" />
+     <groups>
+			<define name="all">
+				<include name="Click_On_Import_Button" />
+				<include name="Click_On_Given_Button_On_Import_Page" />
+				<include name="Close_Help_Section" />
+				<include name="Verify_Record_Added_Or_Not" />
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+			<dependencies>
+				<group name="Click_On_Given_Button_On_Import_Page" depends-on="Click_On_Import_Button" />
+				<group name="Close_Help_Section" depends-on="Click_On_Given_Button_On_Import_Page" />
+			    <group name="Verify_Record_Added_Or_Not" depends-on="Close_Help_Section" />
+			</dependencies>
+			
+		</groups>
+		
+    <classes>
+      <class name="com.common.ui.People_Page"/>
+      <class name="com.common.ui.Import_People_Page"/>
+       <class name="com.common.ui.Help_Page"/>
+    </classes>
+  </test> 
+  <test name="VALIDATE_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE">
+     <parameter name="button_name" value="Next" />
+     <parameter name="enable_flag" value="false" />
+     <groups>
+			<define name="all">
+				<include name="Click_On_Import_Button" />
+				<include name="Verify_Button_Visiblity_On_Import_Page"/>
+				
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+			<dependencies>
+				<group name="Verify_Button_Visiblity_On_Import_Page" depends-on="Click_On_Import_Button" />
+				
+			</dependencies>
+			
+		</groups>
+		
+    <classes>
+      <class name="com.common.ui.People_Page"/>
+      <class name="com.common.ui.Import_People_Page"/>
+    </classes>
+  </test> 
+   <test name="VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE">
+     
+     <groups>
+			<define name="all">
+				<include name="Download_Sample_File" />
+				
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+		
+			
+		</groups>
+		
+    <classes>
+      <class name="com.common.ui.Import_People_Page"/>
+    </classes>
+  </test> 
+  
+  <test name="UPLOAD_GIVEN_FILE_ON_IMPORT_PAGE">
+   <parameter  name="file_Path" value="InputData/Import_File/CSV_File/Test.csv" />
+   <parameter  name="button_name" value="Next" />
+   <parameter name= "expected_Difference" value="10" />
+   
+     <groups>
+			<define name="all">
+				<include name="Upload_Given_File_On_Import_Page" />
+				<include name="Click_On_Given_Button_On_Import_Page" />
+				<include name="By_Default_Map_Records_And_Override_Duplicates" />
+				<include name="Verify_Record_Added_Or_Not" />
+				
+			</define>
+			<run>
+				<include name="all" />
+			</run>
+			<dependencies>
+				<group name="Click_On_Given_Button_On_Import_Page" depends-on="Upload_Given_File_On_Import_Page" />
+				 <group name="By_Default_Map_Records_And_Override_Duplicates" depends-on="Click_On_Given_Button_On_Import_Page" />
+				 <group name="Verify_Record_Added_Or_Not" depends-on="By_Default_Map_Records_And_Override_Duplicates" />
+			</dependencies>
+			
+		</groups>
+		
+    <classes>
+      <class name="com.common.ui.Import_People_Page"/>
+    </classes>
+  </test> 
+  
+  
+</suite> <!-- Suite -->

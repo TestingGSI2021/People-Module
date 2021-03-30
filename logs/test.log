@@ -1,0 +1,489 @@
+ INFO 2021-02-27 09:10:08,107 main: (Set_Webdriver.java:54) - Launching chrome driver +++ 
+ INFO 2021-02-27 09:10:08,444 main: (Annotation.java:41) - 
+
+========================================================================================================================================================
+<<<<< TEST SUITE Started : Suite_Name >>>>>
+========================================================================================================================================================
+
+ INFO 2021-02-27 09:10:08,446 main: (Annotation.java:52) - Cleaning the OutputData folder.
+ INFO 2021-02-27 09:10:08,456 main: (Annotation.java:59) - Creating Output Folder
+ INFO 2021-02-27 09:10:08,457 main: (Annotation.java:62) - Output folder created
+ INFO 2021-02-27 09:10:08,460 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_LOGIN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:10:08,556 main: (Util.java:94) - (Login_Page.Java:27) Navigating to URL: https://xpmgr.gevme.com/login
+ INFO 2021-02-27 09:10:18,648 main: (Util.java:94) - (Login_Page.Java:30) Successfully Navigated to URL: https://xpmgr.gevme.com/login
+ INFO 2021-02-27 09:10:18,654 main: (Util.java:94) - (Login_Page.Java:38) Enter given email :  testinggsi1@gmail.com
+ INFO 2021-02-27 09:10:18,901 main: (Util.java:94) - (Login_Page.Java:42) Successfully entered given email :  testinggsi1@gmail.com
+ INFO 2021-02-27 09:10:18,902 main: (Util.java:94) - (Login_Page.Java:45) Click on submit button.
+ INFO 2021-02-27 09:10:39,083 main: (Util.java:94) - (Login_Page.Java:48) Successfully Clicked on submit button.
+ INFO 2021-02-27 09:10:42,160 main: (Util.java:94) - (Login_Page.Java:53) Enter given OTP : 2325
+ INFO 2021-02-27 09:10:44,332 main: (Util.java:94) - (Login_Page.Java:56) Correct OTP entered. Successfully logged in XPmgr.
+ INFO 2021-02-27 09:10:44,333 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_LOGIN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:10:44,347 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "NAVIGATE_TO_PEOPLE_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:10:44,352 main: (Util.java:94) - (Project_List_Page.Java:25) Click on the project :  V Test
+ INFO 2021-02-27 09:11:04,674 main: (Util.java:94) - (Project_List_Page.Java:29) Successfully clicked on given project : V Test
+ INFO 2021-02-27 09:11:04,676 main: (Util.java:94) - (ProjectDetail_Page.Java:18) Click on People link to open People Module. 
+ INFO 2021-02-27 09:11:49,111 main: (Util.java:94) - (ProjectDetail_Page.Java:26) People module/page opened. 
+ INFO 2021-02-27 09:11:49,112 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "NAVIGATE_TO_PEOPLE_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:11:49,119 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:11:49,158 main: (Util.java:94) - (People_Page.Java:67) Help Scetion is already opened
+ INFO 2021-02-27 09:11:49,164 main: (Util.java:94) - (Help_Page.Java:39) Click on Import Button From Help Section 
+ INFO 2021-02-27 09:12:09,512 main: (Util.java:94) - (Help_Page.Java:42) Successfully clicked on Import button, Upload file page open. 
+ INFO 2021-02-27 09:12:09,514 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Cancel
+ INFO 2021-02-27 09:12:30,174 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-27 09:12:30,175 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:12:30,181 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:12:30,219 main: (Util.java:94) - (People_Page.Java:67) Help Scetion is already opened
+ INFO 2021-02-27 09:12:30,221 main: (Util.java:94) - (Help_Page.Java:53) Click on Create Button From Help Section 
+ INFO 2021-02-27 09:12:50,495 main: (Visible.java:55) - Pausing the Execution for 0 Seconds.
+ INFO 2021-02-27 09:12:50,526 main: (Util.java:94) - (Help_Page.Java:57) Successfully clicked on Create button, 'New Record Form' Opened. 
+ INFO 2021-02-27 09:12:50,532 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Cancel
+ INFO 2021-02-27 09:13:10,724 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-27 09:14:11,867 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-27 09:14:11,867 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 0
+ INFO 2021-02-27 09:14:31,881 main: (Visible.java:113) - Element not found
+ INFO 2021-02-27 09:14:31,882 main: (Util.java:94) - (Help_Page.Java:31) Help Section is already closed 
+ INFO 2021-02-27 09:14:31,883 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:14:31,887 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:15:32,960 main: (Util.java:94) - (People_Page.Java:88) No  record found
+ INFO 2021-02-27 09:15:32,961 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 0
+ INFO 2021-02-27 09:15:53,387 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-27 09:15:53,392 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 first name , in input box : firstname
+ INFO 2021-02-27 09:15:53,744 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 first name , in given field : firstname
+ INFO 2021-02-27 09:15:53,746 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 last name , in input box : lastname
+ INFO 2021-02-27 09:15:54,107 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 last name , in given field : lastname
+ INFO 2021-02-27 09:15:54,107 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  testUser1@gmail.com , in input box : email
+ INFO 2021-02-27 09:15:54,308 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : testUser1@gmail.com , in given field : email
+ INFO 2021-02-27 09:15:54,309 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 job title , in input box : jobTitle
+ INFO 2021-02-27 09:15:54,565 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 job title , in given field : jobTitle
+ INFO 2021-02-27 09:15:54,566 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User1 company , in input box : company
+ INFO 2021-02-27 09:15:54,741 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User1 company , in given field : company
+ INFO 2021-02-27 09:15:54,743 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Save and create another
+ INFO 2021-02-27 09:16:15,073 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Save and create another clicked succsessfully.
+ INFO 2021-02-27 09:16:15,134 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 1
+ INFO 2021-02-27 09:16:15,136 main: (Util.java:94) - (New_Record_Form.Java:143) Click on close icon
+ INFO 2021-02-27 09:16:15,136 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-27 09:16:17,439 main: (Util.java:94) - (New_Record_Form.Java:151) Closed icon clicked succsessfully.
+ INFO 2021-02-27 09:16:17,503 main: (Util.java:94) - (New_Record_Form.Java:153) Total Records after : 1
+ INFO 2021-02-27 09:16:17,505 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-27 09:16:17,506 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:16:17,512 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:16:17,572 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 1
+ INFO 2021-02-27 09:16:37,789 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-27 09:16:37,793 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 first name , in input box : firstname
+ INFO 2021-02-27 09:16:38,134 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 first name , in given field : firstname
+ INFO 2021-02-27 09:16:38,135 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 last name , in input box : lastname
+ INFO 2021-02-27 09:16:38,332 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 last name , in given field : lastname
+ INFO 2021-02-27 09:16:38,332 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  testUser2@gmail.com , in input box : email
+ INFO 2021-02-27 09:16:38,524 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : testUser2@gmail.com , in given field : email
+ INFO 2021-02-27 09:16:38,525 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 job title , in input box : jobTitle
+ INFO 2021-02-27 09:16:38,755 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 job title , in given field : jobTitle
+ INFO 2021-02-27 09:16:38,756 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 company , in input box : company
+ INFO 2021-02-27 09:16:39,027 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 company , in given field : company
+ INFO 2021-02-27 09:16:39,029 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Save
+ INFO 2021-02-27 09:16:59,272 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Save clicked succsessfully.
+ INFO 2021-02-27 09:16:59,337 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 2
+ INFO 2021-02-27 09:16:59,339 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-27 09:16:59,340 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:16:59,352 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:16:59,404 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 2
+ INFO 2021-02-27 09:17:19,643 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-27 09:17:19,645 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 first name , in input box : firstname
+ INFO 2021-02-27 09:17:19,977 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 first name , in given field : firstname
+ INFO 2021-02-27 09:17:19,977 main: (Util.java:94) - (New_Record_Form.Java:29) Enter given value :  Test User2 last name , in input box : lastname
+ INFO 2021-02-27 09:17:20,170 main: (Util.java:94) - (New_Record_Form.Java:34) Successfully entered given value : Test User2 last name , in given field : lastname
+ INFO 2021-02-27 09:17:20,180 main: (Util.java:94) - (New_Record_Form.Java:103) Check Given button Save is clickable or not
+ INFO 2021-02-27 09:17:20,188 main: (Util.java:94) - (New_Record_Form.Java:106) Given button Save is clickable : false
+ INFO 2021-02-27 09:17:20,198 main: (Util.java:94) - (New_Record_Form.Java:103) Check Given button Save and create another is clickable or not
+ INFO 2021-02-27 09:17:20,206 main: (Util.java:94) - (New_Record_Form.Java:106) Given button Save and create another is clickable : false
+ INFO 2021-02-27 09:17:20,207 main: (Util.java:94) - (New_Record_Form.Java:143) Click on close icon
+ INFO 2021-02-27 09:17:20,207 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-27 09:17:22,452 main: (Util.java:94) - (New_Record_Form.Java:151) Closed icon clicked succsessfully.
+ INFO 2021-02-27 09:17:22,505 main: (Util.java:94) - (New_Record_Form.Java:153) Total Records after : 2
+ INFO 2021-02-27 09:17:22,506 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:17:22,511 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:17:22,572 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 2
+ INFO 2021-02-27 09:17:42,745 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-27 09:17:42,747 main: (Util.java:94) - (New_Record_Form.Java:117) Click on Button :  Cancel
+ INFO 2021-02-27 09:18:02,951 main: (Util.java:94) - (New_Record_Form.Java:131) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-27 09:18:03,025 main: (Util.java:94) - (New_Record_Form.Java:134) Total Records after : 2
+ INFO 2021-02-27 09:18:03,027 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-27 09:18:03,027 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:18:03,033 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:18:03,094 main: (Util.java:94) - (People_Page.Java:184) Total Records before : 2
+ INFO 2021-02-27 09:18:23,278 main: (Util.java:94) - (People_Page.Java:187) New Record Form Open 
+ INFO 2021-02-27 09:18:23,279 main: (Util.java:94) - (New_Record_Form.Java:143) Click on close icon
+ INFO 2021-02-27 09:18:23,279 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-27 09:18:25,501 main: (Util.java:94) - (New_Record_Form.Java:151) Closed icon clicked succsessfully.
+ INFO 2021-02-27 09:18:25,545 main: (Util.java:94) - (New_Record_Form.Java:153) Total Records after : 2
+ INFO 2021-02-27 09:18:25,547 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:18:25,555 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:18:25,620 main: (Util.java:94) - (People_Page.Java:202) Total Records before importing: 2
+ INFO 2021-02-27 09:18:25,620 main: (Util.java:94) - (People_Page.Java:204) Click on import button
+ INFO 2021-02-27 09:18:45,913 main: (Util.java:94) - (People_Page.Java:207) Import People Page have been opened.
+ INFO 2021-02-27 09:18:45,914 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Cancel
+ INFO 2021-02-27 09:19:06,308 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Cancel clicked succsessfully.
+ INFO 2021-02-27 09:19:06,334 main: (Util.java:94) - (Help_Page.Java:26) Help Section is opened 
+ INFO 2021-02-27 09:19:26,491 main: (Util.java:94) - (Help_Page.Java:29) Help Section Closed Sucessufully
+ INFO 2021-02-27 09:19:26,492 main: (Util.java:94) - (People_Page.Java:296) No of records are same as expected
+ INFO 2021-02-27 09:19:26,493 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:19:26,498 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:19:26,553 main: (Util.java:94) - (People_Page.Java:202) Total Records before importing: 2
+ INFO 2021-02-27 09:19:26,554 main: (Util.java:94) - (People_Page.Java:204) Click on import button
+ INFO 2021-02-27 09:19:46,779 main: (Util.java:94) - (People_Page.Java:207) Import People Page have been opened.
+ INFO 2021-02-27 09:19:46,793 main: (Util.java:94) - (Import_People_Page.Java:50) Check Given button Next is clickable or not
+ INFO 2021-02-27 09:19:46,801 main: (Util.java:94) - (Import_People_Page.Java:53) Given button Next is clickable : false
+ INFO 2021-02-27 09:19:46,802 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:19:46,806 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:19:46,806 main: (Util.java:94) - (Import_People_Page.Java:60) Downloading sample File
+ INFO 2021-02-27 09:20:07,039 main: (Util.java:94) - (Import_People_Page.Java:62) Clicked on download sample file
+ INFO 2021-02-27 09:20:07,042 main: (Util.java:94) - (File_Utils.Java:87) downloading file in dir : OutputData/downloadFiles
+ INFO 2021-02-27 09:20:12,043 main: (Util.java:94) - (File_Utils.Java:121) Full Name with path is:OutputData\downloadFiles\import-people-csv-example.csv
+ INFO 2021-02-27 09:20:12,044 main: (Util.java:94) - (File_Utils.Java:127) Name is from File:import-people-csv-example.csv
+ INFO 2021-02-27 09:20:12,044 main: (Util.java:94) - (File_Utils.Java:128) Expected Name is:import-people-csv-example
+ INFO 2021-02-27 09:20:12,044 main: (Util.java:94) - (File_Utils.Java:141) Found Downloaded File
+ INFO 2021-02-27 09:20:12,045 main: (Util.java:94) - (Import_People_Page.Java:65) Sample File downloaded successfully
+ INFO 2021-02-27 09:20:12,045 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:20:12,049 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:20:12,050 main: (Util.java:94) - (Import_People_Page.Java:37) Uploading Given File : InputData/Import_File/CSV_File/Test.csv
+ INFO 2021-02-27 09:20:15,788 main: (Util.java:94) - (Import_People_Page.Java:42) InputData/Import_File/CSV_File/Test.csv given File has been uploaded sucessufully
+ INFO 2021-02-27 09:20:15,789 main: (Util.java:94) - (Import_People_Page.Java:78) Click on Button :  Next
+ INFO 2021-02-27 09:20:36,068 main: (Util.java:94) - (Import_People_Page.Java:93) Given Button : Next clicked succsessfully.
+ INFO 2021-02-27 09:20:36,085 main: (Util.java:94) - (Import_People_Page.Java:109) Next button is clickable on 'map your fields page': true
+ INFO 2021-02-27 09:20:56,238 main: (Util.java:94) - (Import_People_Page.Java:111) Clicked on 'Next' button & user Navigated to 'choose an action page'
+ INFO 2021-02-27 09:20:56,258 main: (Util.java:94) - (Import_People_Page.Java:118) Next button is clickable on 'choose an action' page : true
+ INFO 2021-02-27 09:21:16,386 main: (Util.java:94) - (Import_People_Page.Java:120) Clicked on Next Button.
+ INFO 2021-02-27 09:21:26,454 main: (Util.java:94) - (Import_People_Page.Java:123) Total Records after : 12
+ INFO 2021-02-27 09:21:26,455 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:21:26,461 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_EXPORT_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:21:26,463 main: (Util.java:94) - (People_Page.Java:193) Click on export button
+ INFO 2021-02-27 09:21:46,605 main: (Util.java:94) - (File_Utils.Java:87) downloading file in dir : C:\Users\Administrator\.jenkins\Automation_Project\OutputData/downloadFiles
+ INFO 2021-02-27 09:21:51,606 main: (Util.java:94) - (File_Utils.Java:121) Full Name with path is:C:\Users\Administrator\.jenkins\Automation_Project\OutputData\downloadFiles\601b7be559e138003d9a0e96-GEVEME-Live.csv
+ INFO 2021-02-27 09:21:51,606 main: (Util.java:94) - (File_Utils.Java:127) Name is from File:601b7be559e138003d9a0e96-GEVEME-Live.csv
+ INFO 2021-02-27 09:21:51,607 main: (Util.java:94) - (File_Utils.Java:128) Expected Name is:601b7be559e138003d9a0e96-GEVEME-Live
+ INFO 2021-02-27 09:21:51,607 main: (Util.java:94) - (File_Utils.Java:141) Found Downloaded File
+ INFO 2021-02-27 09:21:51,608 main: (Util.java:94) - (People_Page.Java:283) Records have been downloaded successfully.
+ INFO 2021-02-27 09:21:51,609 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_EXPORT_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:21:51,615 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_ADD_FILTER_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:21:51,617 main: (Util.java:94) - (People_Page.Java:97) Click on Add Filters
+ INFO 2021-02-27 09:22:11,909 main: (Util.java:94) - (People_Page.Java:100) Successfully clicked on Add Filters button.
+ INFO 2021-02-27 09:22:11,911 main: (Util.java:94) - (People_Page.Java:119) Click on field dropdown button
+ INFO 2021-02-27 09:22:32,096 main: (Util.java:94) - (People_Page.Java:123) Successfully clicked on field dropdown button
+ INFO 2021-02-27 09:22:32,096 main: (Util.java:94) - (People_Page.Java:127) Select the field name :  First Name
+ INFO 2021-02-27 09:22:52,373 main: (Util.java:94) - (People_Page.Java:131) Successfully selected the field : First Name
+ INFO 2021-02-27 09:22:52,374 main: (Util.java:94) - (People_Page.Java:134) Click on condition dropdown button(contains/doesn't contains)
+ INFO 2021-02-27 09:23:12,515 main: (Util.java:94) - (People_Page.Java:138) Successfully clicked on condition (contains/doesn't contains) dropdown button
+ INFO 2021-02-27 09:23:12,515 main: (Util.java:94) - (People_Page.Java:142) Select the condition (contains/doesn't contains) :  contains
+ INFO 2021-02-27 09:23:32,657 main: (Util.java:94) - (People_Page.Java:149) Successfully selected the condition : contains
+ INFO 2021-02-27 09:23:32,657 main: (Util.java:94) - (People_Page.Java:152) Fill the text in input field of filter 
+ INFO 2021-02-27 09:23:32,903 main: (Util.java:94) - (People_Page.Java:156) Successfully entered value in input : Test
+ INFO 2021-02-27 09:23:32,903 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-27 09:23:34,904 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-27 09:23:36,948 main: (Util.java:94) - (People_Page.Java:382) [Test User1 first name, Test User2 first name]
+ INFO 2021-02-27 09:23:36,950 main: (Util.java:94) - (People_Page.Java:387) Check firstname column contains value : Test
+ INFO 2021-02-27 09:23:36,952 main: (Util.java:94) - (People_Page.Java:389) firstname column contains value : Test
+ INFO 2021-02-27 09:23:36,953 main: (Util.java:94) - (People_Page.Java:387) Check firstname column contains value : Test
+ INFO 2021-02-27 09:23:36,954 main: (Util.java:94) - (People_Page.Java:389) firstname column contains value : Test
+ INFO 2021-02-27 09:23:36,957 main: (Util.java:94) - (People_Page.Java:106) Click on 'Clear All Filter' button.
+ INFO 2021-02-27 09:23:57,232 main: (Visible.java:55) - Pausing the Execution for 5 Seconds.
+ INFO 2021-02-27 09:24:02,263 main: (Util.java:94) - (People_Page.Java:110) All the filters have been removed.
+ INFO 2021-02-27 09:24:02,263 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_ADD_FILTER_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:24:02,269 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SORTING_A_TO_Z_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:24:02,271 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:24:22,386 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:24:23,445 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-27 09:24:43,814 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+ INFO 2021-02-27 09:24:43,815 main: (Util.java:94) - (People_Page.Java:437) Sorted : [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Test User1 first name, Test User2 first name]
+ INFO 2021-02-27 09:25:04,129 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:25:24,215 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:25:25,275 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-27 09:25:25,275 main: (Util.java:94) - (People_Page.Java:448) Click on 'Sort (A-Z)' of Header : First Name
+ INFO 2021-02-27 09:26:05,953 main: (Util.java:94) - (People_Page.Java:593) All Data  [Jane, Janice, Jennifer, Joan, Julia, Khim Wee, Nasir, Robb, Russell, Shawn, Russell, Khim Wee]
+ INFO 2021-02-27 09:26:26,108 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:26:46,281 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:26:47,351 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-27 09:26:48,012 main: (Util.java:94) - (Annotation.Java:109) Unable to Sort A-Z expected [true] but found [false]
+org.testng.Assert.fail(Assert.java:94)<br />org.testng.Assert.failNotEquals(Assert.java:496)<br />org.testng.Assert.assertTrue(Assert.java:42)<br />com.common.ui.People_Page.Validate_Sorting_A_To_Z(People_Page.java:457)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)<br />org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)<br />org.apache.maven.surefire.Surefire.run(Surefire.java:169)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)<br />org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)<br />
+ INFO 2021-02-27 09:26:48,013 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SORTING_A_TO_Z_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:26:48,018 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SORTING_Z_TO_A_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:27:08,435 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User1 first name, Test User2 first name, Joan, Jennifer, Shawn, Julia, Jane, Robb, Nasir, Janice, Russell, Khim Wee]
+ INFO 2021-02-27 09:27:08,436 main: (Util.java:94) - (People_Page.Java:475) reverse Sorted : [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Janice, Jane]
+ INFO 2021-02-27 09:27:28,728 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:27:48,811 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:27:49,864 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-27 09:27:49,865 main: (Util.java:94) - (People_Page.Java:485) Click on 'Sort (Z-A)' of Header : First Name
+ INFO 2021-02-27 09:28:30,414 main: (Util.java:94) - (People_Page.Java:593) All Data  [Test User2 first name, Test User1 first name, Shawn, Russell, Robb, Nasir, Khim Wee, Julia, Joan, Jennifer, Russell, Khim Wee]
+ INFO 2021-02-27 09:28:50,569 main: (Util.java:94) - (People_Page.Java:361) Click on Header Title DropDown : First Name
+ INFO 2021-02-27 09:29:10,655 main: (Visible.java:55) - Pausing the Execution for 1 Seconds.
+ INFO 2021-02-27 09:29:11,711 main: (Util.java:94) - (People_Page.Java:368) Successfully clicked on Header Title DropDown. 
+ INFO 2021-02-27 09:29:12,046 main: (Util.java:94) - (Annotation.Java:109) Unable to Sort Z-A expected [true] but found [false]
+org.testng.Assert.fail(Assert.java:94)<br />org.testng.Assert.failNotEquals(Assert.java:496)<br />org.testng.Assert.assertTrue(Assert.java:42)<br />com.common.ui.People_Page.Validate_Sorting_Z_To_A(People_Page.java:494)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />org.testng.internal.Invoker.invokeMethod(Invoker.java:639)<br />org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />org.testng.TestRunner.privateRun(TestRunner.java:774)<br />org.testng.TestRunner.run(TestRunner.java:624)<br />org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />org.testng.TestNG.run(TestNG.java:1048)<br />org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:73)<br />org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:94)<br />org.apache.maven.surefire.Surefire.run(Surefire.java:169)<br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />java.lang.reflect.Method.invoke(Method.java:498)<br />org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)<br />org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)<br />
+ INFO 2021-02-27 09:29:12,046 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SORTING_Z_TO_A_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:29:12,050 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:29:12,051 main: (Util.java:94) - (People_Page.Java:418) Click on filter button from table Header : First Name
+ INFO 2021-02-27 09:29:32,309 main: (Util.java:94) - (People_Page.Java:423) Successfully clicked on filter button from table Header : First Name
+ INFO 2021-02-27 09:29:32,310 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:29:32,315 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:29:32,316 main: (Util.java:94) - (People_Page.Java:506) Search for ja in firstname
+ INFO 2021-02-27 09:29:52,824 main: (Util.java:94) - (People_Page.Java:534) Search Filter is working fine for search result: firstname
+ INFO 2021-02-27 09:30:13,049 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-27 09:30:15,049 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:30:15,055 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:30:15,056 main: (Util.java:94) - (People_Page.Java:555) Click on 'Hide' option of Header : First Name
+ INFO 2021-02-27 09:30:55,294 main: (Visible.java:113) - Element not found
+ INFO 2021-02-27 09:30:55,295 main: (Util.java:94) - (People_Page.Java:561) Successfully clicked on 'Checkbox & : First Name column have been hide from the table.
+ INFO 2021-02-27 09:30:55,295 main: (Util.java:94) - (People_Page.Java:213) Click on 'Arrange Icon' button & open 'Arrange_Icon_Container' section.
+ INFO 2021-02-27 09:31:15,561 main: (Util.java:94) - (People_Page.Java:217) Successfully clicked on 'Arrange Icon' button. 'Arrange_Icon_Container' section have been opened.
+ INFO 2021-02-27 09:31:15,562 main: (Util.java:94) - (People_Page.Java:565) Click on 'checkbox' to unhide the column :First
+ INFO 2021-02-27 09:31:35,795 main: (Util.java:94) - (People_Page.Java:574) Successfully clicked on 'Checkbox & : First column have been unhide from the table.
+ INFO 2021-02-27 09:31:35,796 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:31:35,800 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:31:35,802 main: (Util.java:94) - (People_Page.Java:213) Click on 'Arrange Icon' button & open 'Arrange_Icon_Container' section.
+ INFO 2021-02-27 09:31:56,063 main: (Util.java:94) - (People_Page.Java:217) Successfully clicked on 'Arrange Icon' button. 'Arrange_Icon_Container' section have been opened.
+ INFO 2021-02-27 09:31:56,066 main: (Util.java:94) - (People_Page.Java:226) Click on 'checkbox' to hide the column : First Name
+ INFO 2021-02-27 09:32:36,349 main: (Visible.java:113) - Element not found
+ INFO 2021-02-27 09:32:36,349 main: (Util.java:94) - (People_Page.Java:233) Successfully clicked on 'Checkbox & : First Name column have been hide from the table.
+ INFO 2021-02-27 09:32:36,351 main: (Util.java:94) - (People_Page.Java:237) Click on 'checkbox' to unhide the column :First Name
+ INFO 2021-02-27 09:32:56,633 main: (Util.java:94) - (People_Page.Java:242) Successfully clicked on 'Checkbox & : First Name column have been unhide from the table.
+ INFO 2021-02-27 09:32:56,634 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:32:56,646 main: (Annotation.java:86) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE STARTED : "VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:32:56,647 main: (Util.java:94) - (People_Page.Java:312) Deleting Records from table.
+ INFO 2021-02-27 09:33:16,693 main: (Visible.java:113) - Element not found
+ INFO 2021-02-27 09:33:18,257 main: (Util.java:94) - (People_Page.Java:251) Select all records.
+ INFO 2021-02-27 09:33:18,257 main: (Visible.java:55) - Pausing the Execution for 2 Seconds.
+ INFO 2021-02-27 09:33:41,374 main: (Util.java:94) - (People_Page.Java:258) All records have been selected.
+ INFO 2021-02-27 09:33:41,375 main: (Util.java:94) - (People_Page.Java:320) Clicking on Delete Button
+ INFO 2021-02-27 09:34:01,650 main: (Util.java:94) - (People_Page.Java:324) Clicked on Delete Button
+ INFO 2021-02-27 09:34:01,650 main: (Util.java:94) - (People_Page.Java:326) Clicking on 'Proceed to Delete' Button
+ INFO 2021-02-27 09:34:21,934 main: (Util.java:94) - (People_Page.Java:330) Clicked on 'Proceed to Delete' Button
+ INFO 2021-02-27 09:34:21,935 main: (Util.java:94) - (People_Page.Java:332) Deleting All Records
+ INFO 2021-02-27 09:34:21,935 main: (Util.java:94) - (People_Page.Java:312) Deleting Records from table.
+ INFO 2021-02-27 09:34:21,968 main: (Util.java:94) - (People_Page.Java:314) No more records to delete.
+ INFO 2021-02-27 09:34:21,987 main: (Util.java:94) - (People_Page.Java:338) Successfully deleted all records.
+ INFO 2021-02-27 09:34:21,987 main: (Annotation.java:75) - 
+
+-------------------------------------------------------------------------------------------------------------------------- 
+ TEST CASE ENDED : "VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY" 
+-------------------------------------------------------------------------------------------------------------------------- 
+
+ INFO 2021-02-27 09:34:22,533 main: (Annotation.java:119) - 
+
+========================================================================================================================================================
+<<<<< TEST SUITE ENDED : Suite_Name >>>>>
+========================================================================================================================================================
+
+ INFO 2021-02-27 09:34:22,535 main: (Annotation.java:123) - Saving data into Environment Propertie File

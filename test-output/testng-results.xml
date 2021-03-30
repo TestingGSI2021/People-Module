@@ -1,0 +1,2929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="56" passed="52" failed="2" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-26T12:23:15Z" name="Suite" finished-at="2021-02-26T12:47:35Z" duration-ms="1459630">
+    <groups>
+      <group name="Click_On_Close_Icon_On_New_Record_Pannel">
+        <method signature="New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" name="Click_On_Close_Icon_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" name="Click_On_Close_Icon_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@ae7950d]" name="Click_On_Close_Icon_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+      </group> <!-- Click_On_Close_Icon_On_New_Record_Pannel -->
+      <group name="Upload_Given_File_On_Import_Page">
+        <method signature="Import_People_Page.Upload_Given_File_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" name="Upload_Given_File_On_Import_Page" class="com.common.ui.Import_People_Page"/>
+      </group> <!-- Upload_Given_File_On_Import_Page -->
+      <group name="Click_On_Import_Button">
+        <method signature="People_Page.Click_On_Import_Button()[pri:0, instance:com.common.ui.People_Page@53e3a87a]" name="Click_On_Import_Button" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Click_On_Import_Button()[pri:0, instance:com.common.ui.People_Page@16c8b7bd]" name="Click_On_Import_Button" class="com.common.ui.People_Page"/>
+      </group> <!-- Click_On_Import_Button -->
+      <group name="Click_Create_Button_On_Help_Section">
+        <method signature="Help_Page.Click_Create_Button_On_Help_Section()[pri:0, instance:com.common.ui.Help_Page@7351a16e]" name="Click_Create_Button_On_Help_Section" class="com.common.ui.Help_Page"/>
+      </group> <!-- Click_Create_Button_On_Help_Section -->
+      <group name="Add_Filters">
+        <method signature="People_Page.Add_Filters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@22bd2039]" name="Add_Filters" class="com.common.ui.People_Page"/>
+      </group> <!-- Add_Filters -->
+      <group name="Click_On_Export_Button">
+        <method signature="People_Page.Click_On_Export_Button()[pri:0, instance:com.common.ui.People_Page@3104f7bd]" name="Click_On_Export_Button" class="com.common.ui.People_Page"/>
+      </group> <!-- Click_On_Export_Button -->
+      <group name="Open Xpmgr">
+        <method signature="Login_Page.Open_Xpmgr()[pri:0, instance:com.common.ui.Login_Page@656d10a4]" name="Open_Xpmgr" class="com.common.ui.Login_Page"/>
+      </group> <!-- Open Xpmgr -->
+      <group name="Verify_Filter_Data_In_Given_Table_Column">
+        <method signature="People_Page.Verify_Filter_Data_In_Given_Table_Column(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@22bd2039]" name="Verify_Filter_Data_In_Given_Table_Column" class="com.common.ui.People_Page"/>
+      </group> <!-- Verify_Filter_Data_In_Given_Table_Column -->
+      <group name="By_Default_Map_Records_And_Override_Duplicates">
+        <method signature="Import_People_Page.By_Default_Map_Records_And_Override_Duplicates()[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" name="By_Default_Map_Records_And_Override_Duplicates" class="com.common.ui.Import_People_Page"/>
+      </group> <!-- By_Default_Map_Records_And_Override_Duplicates -->
+      <group name="Validate_Sorting_A_To_Z">
+        <method signature="People_Page.Validate_Sorting_A_To_Z(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2679311f]" name="Validate_Sorting_A_To_Z" class="com.common.ui.People_Page"/>
+      </group> <!-- Validate_Sorting_A_To_Z -->
+      <group name="Open_Help_Section">
+        <method signature="People_Page.Open_Help_Section()[pri:0, instance:com.common.ui.People_Page@3e7dfd44]" name="Open_Help_Section" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Open_Help_Section()[pri:0, instance:com.common.ui.People_Page@3ac04654]" name="Open_Help_Section" class="com.common.ui.People_Page"/>
+      </group> <!-- Open_Help_Section -->
+      <group name="Verify_Record_Added_Or_Not">
+        <method signature="People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@54562ea6]" name="Verify_Record_Added_Or_Not" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" name="Verify_Record_Added_Or_Not" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@56f71edb]" name="Verify_Record_Added_Or_Not" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@64aad6db]" name="Verify_Record_Added_Or_Not" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" name="Verify_Record_Added_Or_Not" class="com.common.ui.People_Page"/>
+      </group> <!-- Verify_Record_Added_Or_Not -->
+      <group name="Fill_New_Record_Form">
+        <method signature="New_Record_Form.Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" name="Fill_New_Record_Form" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" name="Fill_New_Record_Form" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" name="Fill_New_Record_Form" class="com.common.ui.New_Record_Form"/>
+      </group> <!-- Fill_New_Record_Form -->
+      <group name="Open_Arrange_Icon_Container">
+        <method signature="People_Page.Open_Arrange_Icon_Container()[pri:0, instance:com.common.ui.People_Page@2ab2710]" name="Open_Arrange_Icon_Container" class="com.common.ui.People_Page"/>
+      </group> <!-- Open_Arrange_Icon_Container -->
+      <group name="Click_Import_Button_On_Help_Section">
+        <method signature="Help_Page.Click_Import_Button_On_Help_Section()[pri:0, instance:com.common.ui.Help_Page@723ed581]" name="Click_Import_Button_On_Help_Section" class="com.common.ui.Help_Page"/>
+      </group> <!-- Click_Import_Button_On_Help_Section -->
+      <group name="Click_On_Header_Title_DropDown">
+        <method signature="People_Page.Click_On_Header_Title_DropDown(java.lang.String)[pri:0, instance:com.common.ui.People_Page@2679311f]" name="Click_On_Header_Title_DropDown" class="com.common.ui.People_Page"/>
+      </group> <!-- Click_On_Header_Title_DropDown -->
+      <group name="Clear_All_Filters">
+        <method signature="People_Page.Clear_All_Filters()[pri:0, instance:com.common.ui.People_Page@22bd2039]" name="Clear_All_Filters" class="com.common.ui.People_Page"/>
+      </group> <!-- Clear_All_Filters -->
+      <group name="Validate_Column_Hide_Functinality_From_Column_Header">
+        <method signature="People_Page.Validate_Column_Hide_Functinality_From_Column_Header(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@6d4c273c]" name="Validate_Column_Hide_Functinality_From_Column_Header" class="com.common.ui.People_Page"/>
+      </group> <!-- Validate_Column_Hide_Functinality_From_Column_Header -->
+      <group name="Download_Sample_File">
+        <method signature="Import_People_Page.Download_Sample_File()[pri:0, instance:com.common.ui.Import_People_Page@232cce0]" name="Download_Sample_File" class="com.common.ui.Import_People_Page"/>
+      </group> <!-- Download_Sample_File -->
+      <group name="Login">
+        <method signature="Login_Page.Open_Xpmgr()[pri:0, instance:com.common.ui.Login_Page@656d10a4]" name="Open_Xpmgr" class="com.common.ui.Login_Page"/>
+        <method signature="Login_Page.Login()[pri:0, instance:com.common.ui.Login_Page@656d10a4]" name="Login" class="com.common.ui.Login_Page"/>
+      </group> <!-- Login -->
+      <group name="Click_On_People_Link">
+        <method signature="ProjectDetail_Page.Click_On_People_Link()[pri:0, instance:com.common.ui.ProjectDetail_Page@109d724c]" name="Click_On_People_Link" class="com.common.ui.ProjectDetail_Page"/>
+      </group> <!-- Click_On_People_Link -->
+      <group name="Click_On_Given_Button_On_Import_Page">
+        <method signature="Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@796065aa]" name="Click_On_Given_Button_On_Import_Page" class="com.common.ui.Import_People_Page"/>
+        <method signature="Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7e9da981]" name="Click_On_Given_Button_On_Import_Page" class="com.common.ui.Import_People_Page"/>
+        <method signature="Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" name="Click_On_Given_Button_On_Import_Page" class="com.common.ui.Import_People_Page"/>
+      </group> <!-- Click_On_Given_Button_On_Import_Page -->
+      <group name="Verify_Button_Visiblity_On_Import_Page">
+        <method signature="Import_People_Page.Verify_Button_Visiblity_On_Import_Page(java.lang.String, boolean)[pri:0, instance:com.common.ui.Import_People_Page@7159139f]" name="Verify_Button_Visiblity_On_Import_Page" class="com.common.ui.Import_People_Page"/>
+      </group> <!-- Verify_Button_Visiblity_On_Import_Page -->
+      <group name="Close_Help_Section">
+        <method signature="Help_Page.Close_Help_Section()[pri:0, instance:com.common.ui.Help_Page@7351a16e]" name="Close_Help_Section" class="com.common.ui.Help_Page"/>
+        <method signature="Help_Page.Close_Help_Section()[pri:0, instance:com.common.ui.Help_Page@40368a46]" name="Close_Help_Section" class="com.common.ui.Help_Page"/>
+      </group> <!-- Close_Help_Section -->
+      <group name="Click_On_Given_Button_On_New_Record_Pannel">
+        <method signature="New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@5bb7643d]" name="Click_On_Given_Button_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" name="Click_On_Given_Button_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" name="Click_On_Given_Button_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@7207cb51]" name="Click_On_Given_Button_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+        <method signature="New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@ae7950d]" name="Click_On_Given_Button_On_New_Record_Pannel" class="com.common.ui.New_Record_Form"/>
+      </group> <!-- Click_On_Given_Button_On_New_Record_Pannel -->
+      <group name="Click_On_Add_Filters">
+        <method signature="People_Page.Click_On_Add_Filters()[pri:0, instance:com.common.ui.People_Page@22bd2039]" name="Click_On_Add_Filters" class="com.common.ui.People_Page"/>
+      </group> <!-- Click_On_Add_Filters -->
+      <group name="Delete_Records">
+        <method signature="People_Page.Delete_Records()[pri:0, instance:com.common.ui.People_Page@1f193686]" name="Delete_Records" class="com.common.ui.People_Page"/>
+      </group> <!-- Delete_Records -->
+      <group name="Verify_Button_Visiblity">
+        <method signature="New_Record_Form.Verify_Button_Visiblity(java.lang.String, boolean)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" name="Verify_Button_Visiblity" class="com.common.ui.New_Record_Form"/>
+      </group> <!-- Verify_Button_Visiblity -->
+      <group name="Validate_Search_Functionality">
+        <method signature="People_Page.Validate_Search_Functionality(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@7b3315a5]" name="Validate_Search_Functionality" class="com.common.ui.People_Page"/>
+      </group> <!-- Validate_Search_Functionality -->
+      <group name="Verify_File_Downloaded">
+        <method signature="People_Page.Verify_File_Downloaded(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" name="Verify_File_Downloaded" class="com.common.ui.People_Page"/>
+      </group> <!-- Verify_File_Downloaded -->
+      <group name="Validate_Sorting_Z_To_A">
+        <method signature="People_Page.Validate_Sorting_Z_To_A(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2e34384c]" name="Validate_Sorting_Z_To_A" class="com.common.ui.People_Page"/>
+      </group> <!-- Validate_Sorting_Z_To_A -->
+      <group name="Click_On_New_Button">
+        <method signature="People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@54562ea6]" name="Click_On_New_Button" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" name="Click_On_New_Button" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@2df3c564]" name="Click_On_New_Button" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@56f71edb]" name="Click_On_New_Button" class="com.common.ui.People_Page"/>
+        <method signature="People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@64aad6db]" name="Click_On_New_Button" class="com.common.ui.People_Page"/>
+      </group> <!-- Click_On_New_Button -->
+      <group name="Click_Filters_From_Table_Header">
+        <method signature="People_Page.Click_Filters_From_Table_Header(java.lang.String)[pri:0, instance:com.common.ui.People_Page@3fa76c61]" name="Click_Filters_From_Table_Header" class="com.common.ui.People_Page"/>
+      </group> <!-- Click_Filters_From_Table_Header -->
+      <group name="Hide_Unhide_Table_Column">
+        <method signature="People_Page.Hide_Unhide_Table_Column(java.lang.String)[pri:0, instance:com.common.ui.People_Page@2ab2710]" name="Hide_Unhide_Table_Column" class="com.common.ui.People_Page"/>
+      </group> <!-- Hide_Unhide_Table_Column -->
+      <group name="Open_Project">
+        <method signature="Project_List_Page.Open_Project(java.lang.String)[pri:0, instance:com.common.ui.Project_List_Page@141e879d]" name="Open_Project" class="com.common.ui.Project_List_Page"/>
+      </group> <!-- Open_Project -->
+    </groups>
+    <test started-at="2021-02-26T12:23:15Z" name="VERIFY_LOGIN_FUNCTIONALITY" finished-at="2021-02-26T12:23:53Z" duration-ms="37878">
+      <class name="com.common.ui.Login_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:15Z" name="Before_Test_1" finished-at="2021-02-26T12:23:15Z" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55b45ea1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:15Z" name="Before_Method" finished-at="2021-02-26T12:23:15Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Login_Page.Open_Xpmgr()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Open_Xpmgr()[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:15Z" name="Open_Xpmgr" finished-at="2021-02-26T12:23:26Z" duration-ms="10152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Xpmgr -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:26Z" name="After_Method" finished-at="2021-02-26T12:23:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Open_Xpmgr status=SUCCESS method=Login_Page.Open_Xpmgr()[pri:0, instance:com.common.ui.Login_Page@656d10a4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Login_Page.Open_Xpmgr()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:26Z" name="Before_Method" finished-at="2021-02-26T12:23:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Login_Page.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Login()[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:26Z" name="Login" finished-at="2021-02-26T12:23:53Z" depends-on-methods="com.common.ui.Login_Page.Open_Xpmgr" duration-ms="27579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:53Z" name="After_Method" finished-at="2021-02-26T12:23:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Login_Page.Login()[pri:0, instance:com.common.ui.Login_Page@656d10a4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Login_Page.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.Login_Page@656d10a4]" started-at="2021-02-26T12:23:53Z" name="After_Test" finished-at="2021-02-26T12:23:53Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@55b45ea1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.Login_Page -->
+    </test> <!-- VERIFY_LOGIN_FUNCTIONALITY -->
+    <test started-at="2021-02-26T12:23:53Z" name="NAVIGATE_TO_PEOPLE_PAGE" finished-at="2021-02-26T12:24:57Z" duration-ms="64218">
+      <class name="com.common.ui.ProjectDetail_Page">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.ProjectDetail_Page@109d724c]" started-at="2021-02-26T12:24:14Z" name="Before_Method" finished-at="2021-02-26T12:24:14Z" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.ProjectDetail_Page.Click_On_People_Link()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_People_Link()[pri:0, instance:com.common.ui.ProjectDetail_Page@109d724c]" started-at="2021-02-26T12:24:14Z" name="Click_On_People_Link" depends-on-groups="Open_Project" finished-at="2021-02-26T12:24:57Z" duration-ms="43521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_People_Link -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.ProjectDetail_Page@109d724c]" started-at="2021-02-26T12:24:57Z" name="After_Method" finished-at="2021-02-26T12:24:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_People_Link status=SUCCESS method=ProjectDetail_Page.Click_On_People_Link()[pri:0, instance:com.common.ui.ProjectDetail_Page@109d724c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.ProjectDetail_Page.Click_On_People_Link()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.ProjectDetail_Page -->
+      <class name="com.common.ui.Project_List_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.Project_List_Page@141e879d]" started-at="2021-02-26T12:23:53Z" name="Before_Test_1" finished-at="2021-02-26T12:23:53Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@12d35bc9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Project_List_Page@141e879d]" started-at="2021-02-26T12:23:53Z" name="Before_Method" finished-at="2021-02-26T12:23:53Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Project_List_Page.Open_Project(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Open_Project(java.lang.String)[pri:0, instance:com.common.ui.Project_List_Page@141e879d]" started-at="2021-02-26T12:23:53Z" name="Open_Project" finished-at="2021-02-26T12:24:14Z" duration-ms="20667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Project -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Project_List_Page@141e879d]" started-at="2021-02-26T12:24:14Z" name="After_Method" finished-at="2021-02-26T12:24:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Open_Project status=SUCCESS method=Project_List_Page.Open_Project(java.lang.String)[pri:0, instance:com.common.ui.Project_List_Page@141e879d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Project_List_Page.Open_Project(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.Project_List_Page@141e879d]" started-at="2021-02-26T12:24:57Z" name="After_Test" finished-at="2021-02-26T12:24:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@12d35bc9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.Project_List_Page -->
+    </test> <!-- NAVIGATE_TO_PEOPLE_PAGE -->
+    <test started-at="2021-02-26T12:24:57Z" name="VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" finished-at="2021-02-26T12:25:39Z" duration-ms="41082">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@3e7dfd44]" started-at="2021-02-26T12:24:57Z" name="Before_Test_1" finished-at="2021-02-26T12:24:57Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1df32c09]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Open_Help_Section()[pri:0, instance:com.common.ui.People_Page@3e7dfd44]" started-at="2021-02-26T12:24:57Z" name="Open_Help_Section" finished-at="2021-02-26T12:24:58Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Help_Section -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3e7dfd44]" started-at="2021-02-26T12:24:57Z" name="Before_Method" finished-at="2021-02-26T12:24:57Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Open_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3e7dfd44]" started-at="2021-02-26T12:24:58Z" name="After_Method" finished-at="2021-02-26T12:24:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Open_Help_Section status=SUCCESS method=People_Page.Open_Help_Section()[pri:0, instance:com.common.ui.People_Page@3e7dfd44] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Open_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@3e7dfd44]" started-at="2021-02-26T12:25:39Z" name="After_Test" finished-at="2021-02-26T12:25:39Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1df32c09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+      <class name="com.common.ui.Import_People_Page">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@796065aa]" started-at="2021-02-26T12:25:18Z" name="Before_Method" finished-at="2021-02-26T12:25:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@796065aa]" started-at="2021-02-26T12:25:18Z" name="Click_On_Given_Button_On_Import_Page" depends-on-groups="Click_Import_Button_On_Help_Section" finished-at="2021-02-26T12:25:39Z" duration-ms="20532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_Import_Page -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@796065aa]" started-at="2021-02-26T12:25:39Z" name="After_Method" finished-at="2021-02-26T12:25:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Given_Button_On_Import_Page status=SUCCESS method=Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@796065aa] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.Import_People_Page -->
+      <class name="com.common.ui.Help_Page">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@723ed581]" started-at="2021-02-26T12:24:58Z" name="Before_Method" finished-at="2021-02-26T12:24:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Click_Import_Button_On_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_Import_Button_On_Help_Section()[pri:0, instance:com.common.ui.Help_Page@723ed581]" started-at="2021-02-26T12:24:58Z" name="Click_Import_Button_On_Help_Section" depends-on-groups="Open_Help_Section" finished-at="2021-02-26T12:25:18Z" duration-ms="20458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Import_Button_On_Help_Section -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@723ed581]" started-at="2021-02-26T12:25:18Z" name="After_Method" finished-at="2021-02-26T12:25:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_Import_Button_On_Help_Section status=SUCCESS method=Help_Page.Click_Import_Button_On_Help_Section()[pri:0, instance:com.common.ui.Help_Page@723ed581] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Click_Import_Button_On_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.Help_Page -->
+    </test> <!-- VERIFY_IMPORT_BUTTON_FUNCTIONALITY_ON_HELP_SECTION -->
+    <test started-at="2021-02-26T12:25:39Z" name="VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION" finished-at="2021-02-26T12:27:40Z" duration-ms="121890">
+      <class name="com.common.ui.New_Record_Form">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@5bb7643d]" started-at="2021-02-26T12:25:59Z" name="Before_Method" finished-at="2021-02-26T12:25:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@5bb7643d]" started-at="2021-02-26T12:25:59Z" name="Click_On_Given_Button_On_New_Record_Pannel" depends-on-groups="Click_Create_Button_On_Help_Section" finished-at="2021-02-26T12:27:20Z" duration-ms="81361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_New_Record_Pannel -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@5bb7643d]" started-at="2021-02-26T12:27:20Z" name="After_Method" finished-at="2021-02-26T12:27:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Given_Button_On_New_Record_Pannel status=SUCCESS method=New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@5bb7643d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.New_Record_Form -->
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3ac04654]" started-at="2021-02-26T12:25:39Z" name="Before_Method" finished-at="2021-02-26T12:25:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Open_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Open_Help_Section()[pri:0, instance:com.common.ui.People_Page@3ac04654]" started-at="2021-02-26T12:25:39Z" name="Open_Help_Section" finished-at="2021-02-26T12:25:39Z" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Help_Section -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3ac04654]" started-at="2021-02-26T12:25:39Z" name="After_Method" finished-at="2021-02-26T12:25:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Open_Help_Section status=SUCCESS method=People_Page.Open_Help_Section()[pri:0, instance:com.common.ui.People_Page@3ac04654] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Open_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.People_Page -->
+      <class name="com.common.ui.Help_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:25:39Z" name="Before_Test_1" finished-at="2021-02-26T12:25:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a8656a2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:25:39Z" name="Before_Method" finished-at="2021-02-26T12:25:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Click_Create_Button_On_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_Create_Button_On_Help_Section()[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:25:39Z" name="Click_Create_Button_On_Help_Section" depends-on-groups="Open_Help_Section" finished-at="2021-02-26T12:25:59Z" duration-ms="20390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Create_Button_On_Help_Section -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:25:59Z" name="After_Method" finished-at="2021-02-26T12:25:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_Create_Button_On_Help_Section status=SUCCESS method=Help_Page.Click_Create_Button_On_Help_Section()[pri:0, instance:com.common.ui.Help_Page@7351a16e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Click_Create_Button_On_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:27:20Z" name="Before_Method" finished-at="2021-02-26T12:27:20Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Close_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Close_Help_Section()[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:27:20Z" name="Close_Help_Section" depends-on-groups="Click_On_Given_Button_On_New_Record_Pannel" finished-at="2021-02-26T12:27:40Z" duration-ms="20067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Help_Section -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:27:40Z" name="After_Method" finished-at="2021-02-26T12:27:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Close_Help_Section status=SUCCESS method=Help_Page.Close_Help_Section()[pri:0, instance:com.common.ui.Help_Page@7351a16e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Close_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.Help_Page@7351a16e]" started-at="2021-02-26T12:27:40Z" name="After_Test" finished-at="2021-02-26T12:27:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a8656a2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.Help_Page -->
+    </test> <!-- VERIFY_CREATE_BUTTON_FUNCTIONALITY_ON_HELP_SECTION -->
+    <test started-at="2021-02-26T12:27:40Z" name="VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM" finished-at="2021-02-26T12:29:26Z" duration-ms="106032">
+      <class name="com.common.ui.New_Record_Form">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:02Z" name="Before_Method" finished-at="2021-02-26T12:29:02Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Fill_New_Record_Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:02Z" name="Fill_New_Record_Form" depends-on-groups="Click_On_New_Button" finished-at="2021-02-26T12:29:04Z" duration-ms="1525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test User1 first name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test User1 last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testUser1@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test User1 job title]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test User1 company]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_New_Record_Form -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:04Z" name="After_Method" finished-at="2021-02-26T12:29:04Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Fill_New_Record_Form status=SUCCESS method=New_Record_Form.Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Fill_New_Record_Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:04Z" name="Click_On_Given_Button_On_New_Record_Pannel" depends-on-groups="Fill_New_Record_Form" finished-at="2021-02-26T12:29:24Z" duration-ms="20437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Save and create another]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_New_Record_Pannel -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:04Z" name="Before_Method" finished-at="2021-02-26T12:29:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:24Z" name="After_Method" finished-at="2021-02-26T12:29:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Given_Button_On_New_Record_Pannel status=SUCCESS method=New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:24Z" name="Click_On_Close_Icon_On_New_Record_Pannel" depends-on-groups="Click_On_Given_Button_On_New_Record_Pannel" finished-at="2021-02-26T12:29:26Z" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Close_Icon_On_New_Record_Pannel -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:24Z" name="Before_Method" finished-at="2021-02-26T12:29:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@1a35993f]" started-at="2021-02-26T12:29:26Z" name="After_Method" finished-at="2021-02-26T12:29:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Close_Icon_On_New_Record_Pannel status=SUCCESS method=New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@1a35993f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.New_Record_Form -->
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:27:40Z" name="Before_Test_1" finished-at="2021-02-26T12:27:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52035328]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:27:40Z" name="Before_Method" finished-at="2021-02-26T12:27:40Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:27:40Z" name="Click_On_New_Button" finished-at="2021-02-26T12:29:02Z" duration-ms="81625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_New_Button -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:29:02Z" name="After_Method" finished-at="2021-02-26T12:29:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_New_Button status=SUCCESS method=People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@54562ea6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:29:26Z" name="Before_Method" finished-at="2021-02-26T12:29:26Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:29:26Z" name="Verify_Record_Added_Or_Not" depends-on-groups="Click_On_Close_Icon_On_New_Record_Pannel" finished-at="2021-02-26T12:29:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Record_Added_Or_Not -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:29:26Z" name="After_Method" finished-at="2021-02-26T12:29:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Record_Added_Or_Not status=SUCCESS method=People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@54562ea6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@54562ea6]" started-at="2021-02-26T12:29:26Z" name="After_Test" finished-at="2021-02-26T12:29:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52035328]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_SAVE_AND_CREATE_FUNCTIONALITY_ON_NEW_RECORD_FORM -->
+    <test started-at="2021-02-26T12:29:26Z" name="VERIFY_SAVE_FUNCTIONALITY" finished-at="2021-02-26T12:30:09Z" duration-ms="42197">
+      <class name="com.common.ui.New_Record_Form">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" started-at="2021-02-26T12:29:47Z" name="Before_Method" finished-at="2021-02-26T12:29:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Fill_New_Record_Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" started-at="2021-02-26T12:29:47Z" name="Fill_New_Record_Form" depends-on-groups="Click_On_New_Button" finished-at="2021-02-26T12:29:48Z" duration-ms="1296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test User2 first name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test User2 last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testUser2@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test User2 job title]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test User2 company]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_New_Record_Form -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" started-at="2021-02-26T12:29:48Z" name="Before_Method" finished-at="2021-02-26T12:29:48Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" started-at="2021-02-26T12:29:48Z" name="After_Method" finished-at="2021-02-26T12:29:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Fill_New_Record_Form status=SUCCESS method=New_Record_Form.Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Fill_New_Record_Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" started-at="2021-02-26T12:29:48Z" name="Click_On_Given_Button_On_New_Record_Pannel" depends-on-groups="Fill_New_Record_Form" finished-at="2021-02-26T12:30:09Z" duration-ms="20485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Save]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_New_Record_Pannel -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd]" started-at="2021-02-26T12:30:09Z" name="After_Method" finished-at="2021-02-26T12:30:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Given_Button_On_New_Record_Pannel status=SUCCESS method=New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2b4786dd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.New_Record_Form -->
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:29:26Z" name="Before_Test_1" finished-at="2021-02-26T12:29:26Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5614ae05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:29:26Z" name="Before_Method" finished-at="2021-02-26T12:29:26Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:29:26Z" name="Click_On_New_Button" finished-at="2021-02-26T12:29:47Z" duration-ms="20378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_New_Button -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:29:47Z" name="After_Method" finished-at="2021-02-26T12:29:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_New_Button status=SUCCESS method=People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@14e2e1c3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:30:09Z" name="Before_Method" finished-at="2021-02-26T12:30:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:30:09Z" name="Verify_Record_Added_Or_Not" depends-on-groups="Click_On_Given_Button_On_New_Record_Pannel" finished-at="2021-02-26T12:30:09Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Record_Added_Or_Not -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:30:09Z" name="After_Method" finished-at="2021-02-26T12:30:09Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Record_Added_Or_Not status=SUCCESS method=People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@14e2e1c3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@14e2e1c3]" started-at="2021-02-26T12:30:09Z" name="After_Test" finished-at="2021-02-26T12:30:09Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5614ae05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_SAVE_FUNCTIONALITY -->
+    <test started-at="2021-02-26T12:30:09Z" name="VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE" finished-at="2021-02-26T12:30:32Z" duration-ms="23579">
+      <class name="com.common.ui.New_Record_Form">
+        <test-method signature="Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:29Z" name="Fill_New_Record_Form" depends-on-groups="Click_On_New_Button" finished-at="2021-02-26T12:30:30Z" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test User2 first name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test User2 last name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_New_Record_Form -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:29Z" name="Before_Method" finished-at="2021-02-26T12:30:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Fill_New_Record_Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:30Z" name="After_Method" finished-at="2021-02-26T12:30:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Fill_New_Record_Form status=SUCCESS method=New_Record_Form.Fill_New_Record_Form(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@2715644a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Fill_New_Record_Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:30Z" name="Before_Method" finished-at="2021-02-26T12:30:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Verify_Button_Visiblity(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Verify_Button_Visiblity(java.lang.String, boolean)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:30Z" name="Verify_Button_Visiblity" depends-on-groups="Fill_New_Record_Form" finished-at="2021-02-26T12:30:30Z" duration-ms="69" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Save,Save and create another]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Button_Visiblity -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:30Z" name="After_Method" finished-at="2021-02-26T12:30:30Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Button_Visiblity status=SUCCESS method=New_Record_Form.Verify_Button_Visiblity(java.lang.String, boolean)[pri:0, instance:com.common.ui.New_Record_Form@2715644a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Verify_Button_Visiblity(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:30Z" name="Before_Method" finished-at="2021-02-26T12:30:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:30Z" name="Click_On_Close_Icon_On_New_Record_Pannel" depends-on-groups="Verify_Button_Visiblity" finished-at="2021-02-26T12:30:32Z" duration-ms="2395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Close_Icon_On_New_Record_Pannel -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@2715644a]" started-at="2021-02-26T12:30:32Z" name="After_Method" finished-at="2021-02-26T12:30:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Close_Icon_On_New_Record_Pannel status=SUCCESS method=New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@2715644a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.New_Record_Form -->
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2df3c564]" started-at="2021-02-26T12:30:09Z" name="Before_Test_1" finished-at="2021-02-26T12:30:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@54970127]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2df3c564]" started-at="2021-02-26T12:30:09Z" name="Before_Method" finished-at="2021-02-26T12:30:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@2df3c564]" started-at="2021-02-26T12:30:09Z" name="Click_On_New_Button" finished-at="2021-02-26T12:30:29Z" duration-ms="20394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_New_Button -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2df3c564]" started-at="2021-02-26T12:30:29Z" name="After_Method" finished-at="2021-02-26T12:30:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_New_Button status=SUCCESS method=People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@2df3c564] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@2df3c564]" started-at="2021-02-26T12:30:32Z" name="After_Test" finished-at="2021-02-26T12:30:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@54970127]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_SAVE_BUTTON_AND_SAVE_AND_CREATE_ANOTHER_BUTTON_DISABLE -->
+    <test started-at="2021-02-26T12:30:32Z" name="VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM" finished-at="2021-02-26T12:31:13Z" duration-ms="40797">
+      <class name="com.common.ui.New_Record_Form">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@7207cb51]" started-at="2021-02-26T12:30:53Z" name="Before_Method" finished-at="2021-02-26T12:30:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@7207cb51]" started-at="2021-02-26T12:30:53Z" name="Click_On_Given_Button_On_New_Record_Pannel" depends-on-groups="Click_On_New_Button" finished-at="2021-02-26T12:31:13Z" duration-ms="20355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_New_Record_Pannel -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@7207cb51]" started-at="2021-02-26T12:31:13Z" name="After_Method" finished-at="2021-02-26T12:31:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Given_Button_On_New_Record_Pannel status=SUCCESS method=New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@7207cb51] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Given_Button_On_New_Record_Pannel(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.New_Record_Form -->
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:30:32Z" name="Before_Test_1" finished-at="2021-02-26T12:30:32Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c4c7e51]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:30:32Z" name="Click_On_New_Button" finished-at="2021-02-26T12:30:53Z" duration-ms="20428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_New_Button -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:30:32Z" name="Before_Method" finished-at="2021-02-26T12:30:32Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:30:53Z" name="After_Method" finished-at="2021-02-26T12:30:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_New_Button status=SUCCESS method=People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@56f71edb] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:31:13Z" name="Before_Method" finished-at="2021-02-26T12:31:13Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:31:13Z" name="Verify_Record_Added_Or_Not" depends-on-groups="Click_On_Given_Button_On_New_Record_Pannel" finished-at="2021-02-26T12:31:13Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Record_Added_Or_Not -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:31:13Z" name="After_Method" finished-at="2021-02-26T12:31:13Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Record_Added_Or_Not status=SUCCESS method=People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@56f71edb] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@56f71edb]" started-at="2021-02-26T12:31:13Z" name="After_Test" finished-at="2021-02-26T12:31:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3c4c7e51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_NEW_RECORD_FORM -->
+    <test started-at="2021-02-26T12:31:13Z" name="VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM" finished-at="2021-02-26T12:31:36Z" duration-ms="22741">
+      <class name="com.common.ui.New_Record_Form">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@ae7950d]" started-at="2021-02-26T12:31:33Z" name="Before_Method" finished-at="2021-02-26T12:31:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@ae7950d]" started-at="2021-02-26T12:31:33Z" name="Click_On_Close_Icon_On_New_Record_Pannel" finished-at="2021-02-26T12:31:36Z" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Close_Icon_On_New_Record_Pannel -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.New_Record_Form@ae7950d]" started-at="2021-02-26T12:31:36Z" name="After_Method" finished-at="2021-02-26T12:31:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Close_Icon_On_New_Record_Pannel status=SUCCESS method=New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel()[pri:0, instance:com.common.ui.New_Record_Form@ae7950d] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.New_Record_Form.Click_On_Close_Icon_On_New_Record_Pannel() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Click_On_Given_Button_On_New_Record_Pannel(java.lang.String)[pri:0, instance:com.common.ui.New_Record_Form@ae7950d]" started-at="2021-02-26T12:31:36Z" name="Click_On_Given_Button_On_New_Record_Pannel" depends-on-groups="Click_On_New_Button" finished-at="2021-02-26T12:31:36Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'button_name' is required by @Test on method Click_On_Given_Button_On_New_Record_Pannel but has not been marked @Optional or defined
+in C:\Users\Administrator\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\Automation_Project\src\test\resources\People_Module.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'button_name' is required by @Test on method Click_On_Given_Button_On_New_Record_Pannel but has not been marked @Optional or defined
+in C:\Users\Administrator\Documents\workspace-spring-tool-suite-4-4.9.0.RELEASE\Automation_Project\src\test\resources\People_Module.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_New_Record_Pannel -->
+      </class> <!-- com.common.ui.New_Record_Form -->
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@64aad6db]" started-at="2021-02-26T12:31:13Z" name="Before_Test_1" finished-at="2021-02-26T12:31:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@749ee0e3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@64aad6db]" started-at="2021-02-26T12:31:13Z" name="Click_On_New_Button" finished-at="2021-02-26T12:31:33Z" duration-ms="20350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_New_Button -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@64aad6db]" started-at="2021-02-26T12:31:13Z" name="Before_Method" finished-at="2021-02-26T12:31:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@64aad6db]" started-at="2021-02-26T12:31:33Z" name="After_Method" finished-at="2021-02-26T12:31:33Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_New_Button status=SUCCESS method=People_Page.Click_On_New_Button()[pri:0, instance:com.common.ui.People_Page@64aad6db] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_New_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@64aad6db]" started-at="2021-02-26T12:31:36Z" name="Verify_Record_Added_Or_Not" depends-on-groups="Click_On_Given_Button_On_New_Record_Pannel" finished-at="2021-02-26T12:31:36Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@64aad6db] depends on not successfully finished methods in group "Click_On_Given_Button_On_New_Record_Pannel"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@64aad6db] depends on not successfully finished methods in group "Click_On_Given_Button_On_New_Record_Pannel"
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Record_Added_Or_Not -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@64aad6db]" started-at="2021-02-26T12:31:36Z" name="After_Test" finished-at="2021-02-26T12:31:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@749ee0e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_CLOSE_ICON_FUNCTIONALITY_ON_NEW_RECORD_FORM -->
+    <test started-at="2021-02-26T12:31:36Z" name="VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE" finished-at="2021-02-26T12:32:37Z" duration-ms="61403">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:31:36Z" name="Before_Test_1" finished-at="2021-02-26T12:31:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7891cf3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:31:36Z" name="Before_Method" finished-at="2021-02-26T12:31:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Import_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Import_Button()[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:31:36Z" name="Click_On_Import_Button" finished-at="2021-02-26T12:31:56Z" duration-ms="20462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Import_Button -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:31:56Z" name="After_Method" finished-at="2021-02-26T12:31:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Import_Button status=SUCCESS method=People_Page.Click_On_Import_Button()[pri:0, instance:com.common.ui.People_Page@53e3a87a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Import_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:32:37Z" name="Before_Method" finished-at="2021-02-26T12:32:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:32:37Z" name="Verify_Record_Added_Or_Not" depends-on-groups="Close_Help_Section" finished-at="2021-02-26T12:32:37Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Record_Added_Or_Not -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:32:37Z" name="After_Method" finished-at="2021-02-26T12:32:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Record_Added_Or_Not status=SUCCESS method=People_Page.Verify_Record_Added_Or_Not(int)[pri:0, instance:com.common.ui.People_Page@53e3a87a] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Record_Added_Or_Not(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@53e3a87a]" started-at="2021-02-26T12:32:37Z" name="After_Test" finished-at="2021-02-26T12:32:37Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7891cf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+      <class name="com.common.ui.Help_Page">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@40368a46]" started-at="2021-02-26T12:32:17Z" name="Before_Method" finished-at="2021-02-26T12:32:17Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Close_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Close_Help_Section()[pri:0, instance:com.common.ui.Help_Page@40368a46]" started-at="2021-02-26T12:32:17Z" name="Close_Help_Section" depends-on-groups="Click_On_Given_Button_On_Import_Page" finished-at="2021-02-26T12:32:37Z" duration-ms="20192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Help_Section -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Help_Page@40368a46]" started-at="2021-02-26T12:32:37Z" name="After_Method" finished-at="2021-02-26T12:32:37Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Close_Help_Section status=SUCCESS method=Help_Page.Close_Help_Section()[pri:0, instance:com.common.ui.Help_Page@40368a46] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Help_Page.Close_Help_Section()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.Help_Page -->
+      <class name="com.common.ui.Import_People_Page">
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7e9da981]" started-at="2021-02-26T12:31:56Z" name="Before_Method" finished-at="2021-02-26T12:31:56Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7e9da981]" started-at="2021-02-26T12:31:56Z" name="Click_On_Given_Button_On_Import_Page" depends-on-groups="Click_On_Import_Button" finished-at="2021-02-26T12:32:17Z" duration-ms="20737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cancel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_Import_Page -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7e9da981]" started-at="2021-02-26T12:32:17Z" name="After_Method" finished-at="2021-02-26T12:32:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Given_Button_On_Import_Page status=SUCCESS method=Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7e9da981] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.Import_People_Page -->
+    </test> <!-- VERIFY_CANCEL_BUTTON_FUNCTIONALITY_ON_IMPORT_PAGE -->
+    <test started-at="2021-02-26T12:32:37Z" name="VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE" finished-at="2021-02-26T12:32:58Z" duration-ms="20377">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@16c8b7bd]" started-at="2021-02-26T12:32:37Z" name="Before_Test_1" finished-at="2021-02-26T12:32:37Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bfbab1c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@16c8b7bd]" started-at="2021-02-26T12:32:37Z" name="Before_Method" finished-at="2021-02-26T12:32:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Import_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Import_Button()[pri:0, instance:com.common.ui.People_Page@16c8b7bd]" started-at="2021-02-26T12:32:37Z" name="Click_On_Import_Button" finished-at="2021-02-26T12:32:58Z" duration-ms="20326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Import_Button -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@16c8b7bd]" started-at="2021-02-26T12:32:58Z" name="After_Method" finished-at="2021-02-26T12:32:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Import_Button status=SUCCESS method=People_Page.Click_On_Import_Button()[pri:0, instance:com.common.ui.People_Page@16c8b7bd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Import_Button()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@16c8b7bd]" started-at="2021-02-26T12:32:58Z" name="After_Test" finished-at="2021-02-26T12:32:58Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bfbab1c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+      <class name="com.common.ui.Import_People_Page">
+        <test-method signature="Verify_Button_Visiblity_On_Import_Page(java.lang.String, boolean)[pri:0, instance:com.common.ui.Import_People_Page@7159139f]" started-at="2021-02-26T12:32:58Z" name="Verify_Button_Visiblity_On_Import_Page" depends-on-groups="Click_On_Import_Button" finished-at="2021-02-26T12:32:58Z" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Next]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Button_Visiblity_On_Import_Page -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7159139f]" started-at="2021-02-26T12:32:58Z" name="Before_Method" finished-at="2021-02-26T12:32:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Verify_Button_Visiblity_On_Import_Page(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7159139f]" started-at="2021-02-26T12:32:58Z" name="After_Method" finished-at="2021-02-26T12:32:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Button_Visiblity_On_Import_Page status=SUCCESS method=Import_People_Page.Verify_Button_Visiblity_On_Import_Page(java.lang.String, boolean)[pri:0, instance:com.common.ui.Import_People_Page@7159139f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Verify_Button_Visiblity_On_Import_Page(java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.Import_People_Page -->
+    </test> <!-- VERIFY_NEXT_BUTTON_DISABLE_WHEN_NO_FILE_UPLOADED_ON_IMPORT_PAGE -->
+    <test started-at="2021-02-26T12:32:58Z" name="VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE" finished-at="2021-02-26T12:33:23Z" duration-ms="25242">
+      <class name="com.common.ui.Import_People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@232cce0]" started-at="2021-02-26T12:32:58Z" name="Before_Test_1" finished-at="2021-02-26T12:32:58Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@349aeec4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Download_Sample_File()[pri:0, instance:com.common.ui.Import_People_Page@232cce0]" started-at="2021-02-26T12:32:58Z" name="Download_Sample_File" finished-at="2021-02-26T12:33:23Z" duration-ms="25238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Download_Sample_File -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@232cce0]" started-at="2021-02-26T12:32:58Z" name="Before_Method" finished-at="2021-02-26T12:32:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Download_Sample_File()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@232cce0]" started-at="2021-02-26T12:33:23Z" name="After_Method" finished-at="2021-02-26T12:33:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Download_Sample_File status=SUCCESS method=Import_People_Page.Download_Sample_File()[pri:0, instance:com.common.ui.Import_People_Page@232cce0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Download_Sample_File()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.Import_People_Page@232cce0]" started-at="2021-02-26T12:33:23Z" name="After_Test" finished-at="2021-02-26T12:33:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@349aeec4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.Import_People_Page -->
+    </test> <!-- VERIFY_DOWNLOAD_SAMPLE_FILE_FUNCTIONALITY_ON_IMPORT_PAGE -->
+    <test started-at="2021-02-26T12:33:23Z" name="VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE" finished-at="2021-02-26T12:34:38Z" duration-ms="74710">
+      <class name="com.common.ui.Import_People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:23Z" name="Before_Test_1" finished-at="2021-02-26T12:33:23Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3700994c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:23Z" name="Before_Method" finished-at="2021-02-26T12:33:23Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Upload_Given_File_On_Import_Page(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Upload_Given_File_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:23Z" name="Upload_Given_File_On_Import_Page" finished-at="2021-02-26T12:33:27Z" duration-ms="3984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InputData/Import_File/CSV_File/Test.csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Upload_Given_File_On_Import_Page -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:27Z" name="After_Method" finished-at="2021-02-26T12:33:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Upload_Given_File_On_Import_Page status=SUCCESS method=Import_People_Page.Upload_Given_File_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Upload_Given_File_On_Import_Page(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:27Z" name="Click_On_Given_Button_On_Import_Page" depends-on-groups="Upload_Given_File_On_Import_Page" finished-at="2021-02-26T12:33:47Z" duration-ms="20271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Next]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Given_Button_On_Import_Page -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:27Z" name="Before_Method" finished-at="2021-02-26T12:33:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:47Z" name="After_Method" finished-at="2021-02-26T12:33:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Given_Button_On_Import_Page status=SUCCESS method=Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.Click_On_Given_Button_On_Import_Page(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="By_Default_Map_Records_And_Override_Duplicates()[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:47Z" name="By_Default_Map_Records_And_Override_Duplicates" depends-on-groups="Click_On_Given_Button_On_Import_Page" finished-at="2021-02-26T12:34:38Z" duration-ms="50446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- By_Default_Map_Records_And_Override_Duplicates -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:33:47Z" name="Before_Method" finished-at="2021-02-26T12:33:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.By_Default_Map_Records_And_Override_Duplicates()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:34:38Z" name="After_Test" finished-at="2021-02-26T12:34:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3700994c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4]" started-at="2021-02-26T12:34:38Z" name="After_Method" finished-at="2021-02-26T12:34:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=By_Default_Map_Records_And_Override_Duplicates status=SUCCESS method=Import_People_Page.By_Default_Map_Records_And_Override_Duplicates()[pri:0, instance:com.common.ui.Import_People_Page@7fc645e4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.Import_People_Page.By_Default_Map_Records_And_Override_Duplicates()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.Import_People_Page -->
+    </test> <!-- VERIFY_UPLOAD_FUNCTIONALITY_ON_IMPORT_PAGE -->
+    <test started-at="2021-02-26T12:34:38Z" name="VERIFY_EXPORT_FUNCTIONALITY" finished-at="2021-02-26T12:35:03Z" duration-ms="25179">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:34:38Z" name="Before_Test_1" finished-at="2021-02-26T12:34:38Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78a165db]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Click_On_Export_Button()[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:34:38Z" name="Click_On_Export_Button" finished-at="2021-02-26T12:34:58Z" duration-ms="20171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Export_Button -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:34:38Z" name="Before_Method" finished-at="2021-02-26T12:34:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Export_Button() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Verify_File_Downloaded(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:34:58Z" name="Verify_File_Downloaded" depends-on-groups="Click_On_Export_Button" finished-at="2021-02-26T12:35:03Z" duration-ms="5003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[601b7be559e138003d9a0e96-GEVEME-Live]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[.csv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_File_Downloaded -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:34:58Z" name="After_Method" finished-at="2021-02-26T12:34:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Export_Button status=SUCCESS method=People_Page.Click_On_Export_Button()[pri:0, instance:com.common.ui.People_Page@3104f7bd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Export_Button() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:34:58Z" name="Before_Method" finished-at="2021-02-26T12:34:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_File_Downloaded(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:35:03Z" name="After_Method" finished-at="2021-02-26T12:35:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_File_Downloaded status=SUCCESS method=People_Page.Verify_File_Downloaded(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@3104f7bd] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_File_Downloaded(java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@3104f7bd]" started-at="2021-02-26T12:35:03Z" name="After_Test" finished-at="2021-02-26T12:35:03Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78a165db]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_EXPORT_FUNCTIONALITY -->
+    <test started-at="2021-02-26T12:35:03Z" name="VERIFY_ADD_FILTER_FUNCTIONALITY" finished-at="2021-02-26T12:37:14Z" duration-ms="131085">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:35:03Z" name="Before_Test_1" finished-at="2021-02-26T12:35:03Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4eb48298]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:35:03Z" name="Before_Method" finished-at="2021-02-26T12:35:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Add_Filters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Click_On_Add_Filters()[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:35:03Z" name="Click_On_Add_Filters" finished-at="2021-02-26T12:35:23Z" duration-ms="20377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Add_Filters -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:35:23Z" name="After_Method" finished-at="2021-02-26T12:35:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Add_Filters status=SUCCESS method=People_Page.Click_On_Add_Filters()[pri:0, instance:com.common.ui.People_Page@22bd2039] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Add_Filters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:35:23Z" name="Before_Method" finished-at="2021-02-26T12:35:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Add_Filters(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Add_Filters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:35:23Z" name="Add_Filters" depends-on-groups="Click_On_Add_Filters" finished-at="2021-02-26T12:36:46Z" duration-ms="83266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[contains]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Filters -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:36:46Z" name="After_Method" finished-at="2021-02-26T12:36:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_Filters status=SUCCESS method=People_Page.Add_Filters(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@22bd2039] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Add_Filters(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:36:46Z" name="Before_Method" finished-at="2021-02-26T12:36:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Filter_Data_In_Given_Table_Column(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Verify_Filter_Data_In_Given_Table_Column(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:36:46Z" name="Verify_Filter_Data_In_Given_Table_Column" depends-on-groups="Add_Filters" finished-at="2021-02-26T12:36:48Z" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[contains]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Filter_Data_In_Given_Table_Column -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:36:48Z" name="After_Method" finished-at="2021-02-26T12:36:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Filter_Data_In_Given_Table_Column status=SUCCESS method=People_Page.Verify_Filter_Data_In_Given_Table_Column(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@22bd2039] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Verify_Filter_Data_In_Given_Table_Column(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Clear_All_Filters()[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:36:48Z" name="Clear_All_Filters" depends-on-groups="Verify_Filter_Data_In_Given_Table_Column" finished-at="2021-02-26T12:37:14Z" duration-ms="25366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clear_All_Filters -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:36:48Z" name="Before_Method" finished-at="2021-02-26T12:36:48Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Clear_All_Filters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:37:14Z" name="After_Method" finished-at="2021-02-26T12:37:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Clear_All_Filters status=SUCCESS method=People_Page.Clear_All_Filters()[pri:0, instance:com.common.ui.People_Page@22bd2039] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Clear_All_Filters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@22bd2039]" started-at="2021-02-26T12:37:14Z" name="After_Test" finished-at="2021-02-26T12:37:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4eb48298]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_ADD_FILTER_FUNCTIONALITY -->
+    <test started-at="2021-02-26T12:37:14Z" name="VERIFY_SORTING_A_TO_Z_FROM_HEADER" finished-at="2021-02-26T12:40:00Z" duration-ms="166152">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:37:14Z" name="Before_Test_1" finished-at="2021-02-26T12:37:14Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3bb944]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Click_On_Header_Title_DropDown(java.lang.String)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:37:14Z" name="Click_On_Header_Title_DropDown" finished-at="2021-02-26T12:37:35Z" duration-ms="21395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_On_Header_Title_DropDown -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:37:14Z" name="Before_Method" finished-at="2021-02-26T12:37:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Header_Title_DropDown(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:37:35Z" name="After_Method" finished-at="2021-02-26T12:37:35Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_On_Header_Title_DropDown status=SUCCESS method=People_Page.Click_On_Header_Title_DropDown(java.lang.String)[pri:0, instance:com.common.ui.People_Page@2679311f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_On_Header_Title_DropDown(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Validate_Sorting_A_To_Z(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:37:35Z" name="Validate_Sorting_A_To_Z" depends-on-groups="Click_On_Header_Title_DropDown" finished-at="2021-02-26T12:39:59Z" duration-ms="144020" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Sorting_A_To_Z -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:37:35Z" name="Before_Method" finished-at="2021-02-26T12:37:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Sorting_A_To_Z(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:39:59Z" name="After_Method" finished-at="2021-02-26T12:40:00Z" duration-ms="719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_Sorting_A_To_Z status=FAILURE method=People_Page.Validate_Sorting_A_To_Z(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2679311f] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Sorting_A_To_Z(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@2679311f]" started-at="2021-02-26T12:40:00Z" name="After_Test" finished-at="2021-02-26T12:40:00Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d3bb944]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_SORTING_A_TO_Z_FROM_HEADER -->
+    <test started-at="2021-02-26T12:40:00Z" name="VERIFY_SORTING_Z_TO_A_FROM_HEADER" finished-at="2021-02-26T12:42:24Z" duration-ms="144373">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2e34384c]" started-at="2021-02-26T12:40:00Z" name="Before_Test_1" finished-at="2021-02-26T12:40:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e429f56]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2e34384c]" started-at="2021-02-26T12:40:00Z" name="Before_Method" finished-at="2021-02-26T12:40:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Sorting_Z_To_A(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Validate_Sorting_Z_To_A(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2e34384c]" started-at="2021-02-26T12:40:00Z" name="Validate_Sorting_Z_To_A" finished-at="2021-02-26T12:42:24Z" duration-ms="143964" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Sorting_Z_To_A -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2e34384c]" started-at="2021-02-26T12:42:24Z" name="After_Method" finished-at="2021-02-26T12:42:24Z" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_Sorting_Z_To_A status=FAILURE method=People_Page.Validate_Sorting_Z_To_A(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2e34384c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Sorting_Z_To_A(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@2e34384c]" started-at="2021-02-26T12:42:24Z" name="After_Test" finished-at="2021-02-26T12:42:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e429f56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_SORTING_Z_TO_A_FROM_HEADER -->
+    <test started-at="2021-02-26T12:42:24Z" name="VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER" finished-at="2021-02-26T12:42:45Z" duration-ms="20327">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@3fa76c61]" started-at="2021-02-26T12:42:24Z" name="Before_Test_1" finished-at="2021-02-26T12:42:24Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dbeaef8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Click_Filters_From_Table_Header(java.lang.String)[pri:0, instance:com.common.ui.People_Page@3fa76c61]" started-at="2021-02-26T12:42:24Z" name="Click_Filters_From_Table_Header" finished-at="2021-02-26T12:42:45Z" duration-ms="20317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Filters_From_Table_Header -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3fa76c61]" started-at="2021-02-26T12:42:24Z" name="Before_Method" finished-at="2021-02-26T12:42:24Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_Filters_From_Table_Header(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@3fa76c61]" started-at="2021-02-26T12:42:45Z" name="After_Method" finished-at="2021-02-26T12:42:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Click_Filters_From_Table_Header status=SUCCESS method=People_Page.Click_Filters_From_Table_Header(java.lang.String)[pri:0, instance:com.common.ui.People_Page@3fa76c61] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Click_Filters_From_Table_Header(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@3fa76c61]" started-at="2021-02-26T12:42:45Z" name="After_Test" finished-at="2021-02-26T12:42:45Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6dbeaef8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_FILTER_FUNCTIONALITY_FROM_TABLE__HEADER -->
+    <test started-at="2021-02-26T12:42:45Z" name="VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER" finished-at="2021-02-26T12:43:28Z" duration-ms="43007">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@7b3315a5]" started-at="2021-02-26T12:42:45Z" name="Before_Test_1" finished-at="2021-02-26T12:42:45Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7744195]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@7b3315a5]" started-at="2021-02-26T12:42:45Z" name="Before_Method" finished-at="2021-02-26T12:42:45Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Search_Functionality(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Validate_Search_Functionality(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@7b3315a5]" started-at="2021-02-26T12:42:45Z" name="Validate_Search_Functionality" finished-at="2021-02-26T12:43:28Z" duration-ms="43003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Search_Functionality -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@7b3315a5]" started-at="2021-02-26T12:43:28Z" name="After_Method" finished-at="2021-02-26T12:43:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_Search_Functionality status=SUCCESS method=People_Page.Validate_Search_Functionality(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@7b3315a5] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Search_Functionality(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@7b3315a5]" started-at="2021-02-26T12:43:28Z" name="After_Test" finished-at="2021-02-26T12:43:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7744195]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_SEARCH_FUNCTIONALITY_FROM_HEADER -->
+    <test started-at="2021-02-26T12:43:28Z" name="VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER" finished-at="2021-02-26T12:44:49Z" duration-ms="80860">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@6d4c273c]" started-at="2021-02-26T12:43:28Z" name="Before_Test_1" finished-at="2021-02-26T12:43:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f529a6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@6d4c273c]" started-at="2021-02-26T12:43:28Z" name="Before_Method" finished-at="2021-02-26T12:43:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Column_Hide_Functinality_From_Column_Header(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method signature="Validate_Column_Hide_Functinality_From_Column_Header(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@6d4c273c]" started-at="2021-02-26T12:43:28Z" name="Validate_Column_Hide_Functinality_From_Column_Header" finished-at="2021-02-26T12:44:49Z" duration-ms="80858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[First]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Column_Hide_Functinality_From_Column_Header -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@6d4c273c]" started-at="2021-02-26T12:44:49Z" name="After_Method" finished-at="2021-02-26T12:44:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Validate_Column_Hide_Functinality_From_Column_Header status=SUCCESS method=People_Page.Validate_Column_Hide_Functinality_From_Column_Header(java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@6d4c273c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Validate_Column_Hide_Functinality_From_Column_Header(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@6d4c273c]" started-at="2021-02-26T12:44:49Z" name="After_Test" finished-at="2021-02-26T12:44:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77f529a6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_COLUMN_HIDE_FUNCTIONALITY_FROM_HEADER -->
+    <test started-at="2021-02-26T12:44:49Z" name="VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY" finished-at="2021-02-26T12:46:10Z" duration-ms="80950">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:44:49Z" name="Before_Test_1" finished-at="2021-02-26T12:44:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d47b021]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Open_Arrange_Icon_Container()[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:44:49Z" name="Open_Arrange_Icon_Container" finished-at="2021-02-26T12:45:09Z" duration-ms="20391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Arrange_Icon_Container -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:44:49Z" name="Before_Method" finished-at="2021-02-26T12:44:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Open_Arrange_Icon_Container()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:45:09Z" name="Before_Method" finished-at="2021-02-26T12:45:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Hide_Unhide_Table_Column(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:45:09Z" name="After_Method" finished-at="2021-02-26T12:45:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Open_Arrange_Icon_Container status=SUCCESS method=People_Page.Open_Arrange_Icon_Container()[pri:0, instance:com.common.ui.People_Page@2ab2710] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Open_Arrange_Icon_Container()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method signature="Hide_Unhide_Table_Column(java.lang.String)[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:45:09Z" name="Hide_Unhide_Table_Column" depends-on-groups="Open_Arrange_Icon_Container" finished-at="2021-02-26T12:46:10Z" duration-ms="60551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[First Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hide_Unhide_Table_Column -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:46:10Z" name="After_Test" finished-at="2021-02-26T12:46:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d47b021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@2ab2710]" started-at="2021-02-26T12:46:10Z" name="After_Method" finished-at="2021-02-26T12:46:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Hide_Unhide_Table_Column status=SUCCESS method=People_Page.Hide_Unhide_Table_Column(java.lang.String)[pri:0, instance:com.common.ui.People_Page@2ab2710] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Hide_Unhide_Table_Column(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_ARRANGE_ICON_HIDE/UNHIDE_COLUMN_FUNCTIONALITY -->
+    <test started-at="2021-02-26T12:46:10Z" name="VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY" finished-at="2021-02-26T12:47:35Z" duration-ms="85351">
+      <class name="com.common.ui.People_Page">
+        <test-method is-config="true" signature="Before_Suites(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@1f193686]" started-at="2021-02-26T12:23:15Z" name="Before_Suites" finished-at="2021-02-26T12:23:15Z" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6516181f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Suites -->
+        <test-method is-config="true" signature="Before_Test_1(org.testng.ITestContext, java.lang.String, java.lang.String)[pri:0, instance:com.common.ui.People_Page@1f193686]" started-at="2021-02-26T12:46:10Z" name="Before_Test_1" finished-at="2021-02-26T12:46:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6516181f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Test_1 -->
+        <test-method signature="Delete_Records()[pri:0, instance:com.common.ui.People_Page@1f193686]" started-at="2021-02-26T12:46:10Z" name="Delete_Records" finished-at="2021-02-26T12:47:35Z" duration-ms="85347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Records -->
+        <test-method is-config="true" signature="Before_Method(java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@1f193686]" started-at="2021-02-26T12:46:10Z" name="Before_Method" finished-at="2021-02-26T12:46:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Delete_Records()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before_Method -->
+        <test-method is-config="true" signature="After_Method(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.common.ui.People_Page@1f193686]" started-at="2021-02-26T12:47:35Z" name="After_Method" finished-at="2021-02-26T12:47:35Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Delete_Records status=SUCCESS method=People_Page.Delete_Records()[pri:0, instance:com.common.ui.People_Page@1f193686] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void com.common.ui.People_Page.Delete_Records()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Method -->
+        <test-method is-config="true" signature="After_Test(org.testng.ITestContext)[pri:0, instance:com.common.ui.People_Page@1f193686]" started-at="2021-02-26T12:47:35Z" name="After_Test" finished-at="2021-02-26T12:47:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6516181f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Test -->
+        <test-method is-config="true" signature="After_Suites()[pri:0, instance:com.common.ui.People_Page@1f193686]" started-at="2021-02-26T12:47:35Z" name="After_Suites" finished-at="2021-02-26T12:47:36Z" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- After_Suites -->
+      </class> <!-- com.common.ui.People_Page -->
+    </test> <!-- VERIFY_DELETE_ALL_RECORDS_FUNCTIONALITY -->
+  </suite> <!-- Suite -->
+</testng-results>
